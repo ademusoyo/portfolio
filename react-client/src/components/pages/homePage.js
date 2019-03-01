@@ -11,32 +11,33 @@ import { Link } from 'react-router-dom';
 class HomePage extends Component {
   render() {
     return (
-      <div className="main-content">
-        <Banner backgroundColor="homepage-banner"
-        headerText={"Hi. I'm Ademusoyo."}
-        subText="Software Developer, Product and Brand Strategist, UX/ UI Designer, STEM Advocate."
-        image={colorLogo}
-        includeContact={true} />
-          <div className="indented-section">
-            <span className="main-content-header">Projects: </span>
-            <div className="projects">
-              <Col xs="12" m="3" lg="3" xl="3">
-                <Link to="">
-                <Card className="project">
-                  <img src={Magneg} />
-                  <Button className="action-button" style={{marginLeft: "70px"}}> View Case Study </Button>
-                </Card>
-                </Link>
-              </Col>
-              <Col xs="12" m="3" lg="3" xl="3">
-                <Link to="">
-                <Card className="project">
-                  <img src={Schedx} />
-                </Card>
-                </Link>
-              </Col>
+      <div>
+        <div className="main-content">
+          <Banner backgroundColor="homepage-banner"
+          headerText={"Hi. I'm Ademusoyo."}
+          subText="Software Developer, Product and Brand Strategist, UX/ UI Designer, STEM Advocate."
+          image={colorLogo}
+          includeContact={true} />
+            <div className="indented-section">
+              <span className="main-content-header">Projects: </span>
+              <div className="projects">
+                <Col xs="12" m="3" lg="3" xl="3">
+                  <Link to="/magneg_case_study">
+                  <Card className="project">
+                    <img className="project-image" src={Magneg} />
+                  </Card>
+                  </Link>
+                </Col>
+                <Col xs="12" m="3" lg="3" xl="3">
+                  <a href="https://medium.com/@Ademusoyo/personal-trainer-app-ux-ui-design-challenge-case-study-1af22c7bdb36" target="_blank">
+                  <Card className="project">
+                    <img className="project-image" src={Schedx} />
+                  </Card>
+                  </a>
+                </Col>
+              </div>
             </div>
-          </div>
+        </div>
       </div>
     )
   }

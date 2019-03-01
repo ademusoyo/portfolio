@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import {Row, Col} from 'reactstrap';
+import {Row, Col, Button} from 'reactstrap';
 
-class Banner extends Component {
+class BannerLink extends Component {
 
   constructor(props){
     super(props);
@@ -9,7 +9,8 @@ class Banner extends Component {
       backgroundColor: this.props.backgroundColor,
       headerText: this.props.headerText,
       subText: this.props.subText,
-      image: this.props.image,
+      buttonText: this.props.buttonText,
+      buttonLink: this.props.buttonLink,
     }
 
   }
@@ -18,19 +19,17 @@ class Banner extends Component {
     return (
       <div className={this.state.backgroundColor}>
         <Row>
-        <Col xs="12" m="6" lg="6" xl="6">
         <div className="indented-section">
           <div className="main-headerText">{this.state.headerText}</div>
           <div className="main-subText">{this.state.subText}</div>
+          <a href={this.state.buttonLink} target="_blank">
+            <Button className="action-button" size="lg" style={{marginBottom: "1.5em"}}>{this.state.buttonText}</Button>
+          </a>
         </div>
-        </Col>
-        <Col xs="12" m="6" lg="6" xl="6">
-          <img src={this.state.image} alt="4 circles in a square" className="banner-image"/>
-        </Col>
         </Row>
       </div>
     )
   }
 }
 
-export default Banner;
+export default BannerLink;
