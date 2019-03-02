@@ -14,7 +14,7 @@ class AboutPage extends Component {
         <BannerLink
           backgroundColor="about-banner"
           headerText="About Me."
-          subText=""
+          subText="Full Stack Developer, Product and Brand Strategist, UX/ UI Designer, STEM Influencer, Blogger, Content Curator."
           buttonText="View Resume"
           buttonLink="https://drive.google.com/file/d/1GbZrazttBnTpWZ1ZQxz2fSaVbXUg4j1A/view?usp=sharing" />
           <div className="main-content">

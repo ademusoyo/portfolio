@@ -20,7 +20,7 @@ class ContentImage extends Component {
                 {this.state.content}
             </div>
             <div>
-              <img src={this.state.image} style={{marginBottom: "2.5em"}}/>
+              <img src={this.state.image} className="content-image" />
             </div>
       </div>
     )

@@ -27,12 +27,12 @@ class BannerLinkImage extends Component {
           <div className="main-subText">{this.state.subText}</div>
           <div className="main-subText" style={{marginTop: "1.5em"}}>{this.state.role}</div>
           <a href={this.state.buttonLink} target="_blank">
-            <Button className="action-button" size="lg" style={{marginBottom: "1.5em"}}>{this.state.buttonText}</Button>
+            <Button className="action-button" size="lg"  style={{marginBottom: "1.5em"}}>{this.state.buttonText}</Button>
           </a>
         </div>
         </Col>
         <Col xs="12" m="6" lg="6" xl="6">
-          <img src={this.state.image} style={{width: "50%", align: "right", marginTop: "1.5em"}}/>
+          <img src={this.state.image} className="banner-link-image" />
         </Col>
         </Row>
       </div>

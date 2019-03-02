@@ -95,6 +95,48 @@ footer {
     margin-left: 10em;
   }
 
+  .project{
+    margin-right: 5em;
+  }
+
+  .contact-footer{
+    margin-right: 40px;
+  }
+
+  .action-button{
+    justify-content: center;
+  }
+
+  .focal-image{
+    left: 30px !important;
+  }
+
+  #long-action-button{
+    width: 65%;
+    margin-left: 115px;
+  }
+
+  .content-image #pieChart{
+    width: 90% !important;
+  }
+
+  .content-image{
+    width: 75%;
+  }
+
+  .banner-link-image{
+    width: 50%;
+    margin-left: 10%;
+  }
+
+  .bullet-item{
+    width: 300%
+  }
+
+  .subheader-text{
+    width: 200%;
+  }
+
 }
 
 .banner{
@@ -124,10 +166,6 @@ footer {
 }
 
 .focal-image{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
   margin-top: 2em;
 }
 
@@ -178,9 +216,6 @@ a{
 
 
 .project{
-  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25) !important;
-  position: relative;
-  z-index: 10;;
 }
 
 .projects{
@@ -215,4 +250,30 @@ a{
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   font-size: 16px
+}
+
+.overlay {
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+}
+
+.project:hover{
+  opacity: .5;
+}
+
+
+.banner-image-link{
+  width: "50%";
+  align: "right";
+  margin-top: "1.5em";
+}
+
+.content-image{
+  margin-bottom: "2.5em";
 }

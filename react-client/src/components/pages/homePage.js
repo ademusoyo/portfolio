@@ -21,18 +21,18 @@ class HomePage extends Component {
             <div className="indented-section">
               <span className="main-content-header">Projects: </span>
               <div className="projects">
-                <Col xs="12" m="3" lg="3" xl="3">
+                <Col xs="12" sm="12" md="4" lg="4" xl="4">
                   <Link to="/magneg_case_study">
-                  <Card className="project">
+                  <div className="project">
                     <img className="project-image" src={Magneg} />
-                  </Card>
+                  </div>
                   </Link>
                 </Col>
-                <Col xs="12" m="3" lg="3" xl="3">
+                <Col xs="12" sm="12" md="4" lg="4" xl="4">
                   <a href="https://medium.com/@Ademusoyo/personal-trainer-app-ux-ui-design-challenge-case-study-1af22c7bdb36" target="_blank">
-                  <Card className="project">
+                  <div className="project">
                     <img className="project-image" src={Schedx} />
-                  </Card>
+                  </div>
                   </a>
                 </Col>
               </div>
