@@ -23,7 +23,7 @@ class BannerLink extends Component {
           <div className="main-headerText">{this.state.headerText}</div>
           <div className="main-subText">{this.state.subText}</div>
           <a href={this.state.buttonLink} target="_blank">
-            <Button className="action-button" size="lg" style={{marginBottom: "1.5em"}}>{this.state.buttonText}</Button>
+            <Button className="action-button" size="lg" style={{marginBottom: "1.5em"}} id="banner-button">{this.state.buttonText}</Button>
           </a>
         </div>
         </Row>

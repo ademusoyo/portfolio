@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import img from '../../images/logo.png'
+import { slide as Menu, MenuWrap } from 'react-burger-menu'
 
 class NavBar extends Component {
   constructor(props){
@@ -9,15 +10,16 @@ class NavBar extends Component {
   }
 
   render() {
-
     return (
       <header>
-        <ul id="headerButtons">
-        <Link to="/" >
-        <img src={img} alt="My logo d e m u " style={{marginLeft: "2em"}}/>
-        </Link>
-          <li className="navButton"><Link to="/about" className="nav-link">About Me</Link></li>
-        </ul>
+          <Menu className="header-menu"  right >
+            <a id="home" className="menu-item" href="/">Home</a>
+            <a id="about" className="menu-item" href="/about">About</a>
+            <a id="contact" className="menu-item" href="mailto:ademusoyo@gmail.com">Contact</a>
+          </Menu>
+          <Link to="/">
+            <img src={img} alt="My logo d e m u " style={{ position: "relative", marginLeft: "2em", bottom: "20px"}}/>
+          </Link>
       </header>
     )
   }

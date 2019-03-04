@@ -15,11 +15,8 @@ class HomePage extends Component {
         <div className="main-content">
           <Banner backgroundColor="homepage-banner"
           headerText={"Hi. I'm Ademusoyo."}
-          subText="Software Developer, Product and Brand Strategist, UX/ UI Designer, STEM Advocate."
-          image={colorLogo}
-          includeContact={true} />
-            <div className="indented-section">
-              <span className="main-content-header">Projects: </span>
+          subText="Designer, Developer, STEM Advocate"
+          image={colorLogo} id="homepage-header" />
               <div className="projects">
                 <Col xs="12" sm="12" md="4" lg="4" xl="4">
                   <Link to="/magneg_case_study">
@@ -36,7 +33,6 @@ class HomePage extends Component {
                   </a>
                 </Col>
               </div>
-            </div>
         </div>
       </div>
     )

@@ -12,14 +12,13 @@ class Footer extends Component {
     return (
         <footer>
           <div className="indented-section">
-          <div>
-          <span className="footer-header">{"Let's Connect"}</span>
-          </div>
-          <div style={{maxWidth: "744px"}}>
-          <span className="main-subText" style={{wordWrap: "break-word" }}>Are you interested in working together? Want to discuss UX, Tech, or anything in between? Email me so we can discuss.</span>
+          <div className="footer-header">{"Let's Connect"}</div>
+          <div classnName="footer-content">
+          <div className="main-subText" style={{wordWrap: "break-word" }}>Are you interested in working together? <br />
+          Want to discuss UX, Tech, or anything in between? Email me so we can discuss.</div>
           </div>
           <a href="mailto:ademusoyo@gmail.com">
-          <Button className="action-button" size="lg">Email Me</Button>
+          <Button className="action-button"  id="contact-button" size="lg">Email Me</Button>
           </a>
           <div className="contact-footer">
               <a href="https://www.linkedin.com/in/ademusoyo/" target="_blank"><img src={linkedIn} alt = "linkedIn icon"/></a>
