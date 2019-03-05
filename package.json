@@ -13,6 +13,9 @@
     "postinstall": "webpack",
     "heroku-postbuild": "webpack -p"
   },
+  "engines":{
+    "node": "8.11.1"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
