@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Banner from '../common/Banner';
+import Banner from '../common/banner';
 import {Card, Button, CardBody, Col, Row} from 'reactstrap';
 import colorLogo from '../../images/color-wheel.png';
 import Magneg from '../../images/magneg-card.png';

@@ -4,8 +4,8 @@ import me from '../../images/me.png';
 import NavBar from '../headerComponent/navBar';
 import Footer from '../footerComponent/footer';
 import { Link } from 'react-router-dom';
-import BannerLink from '../common/BannerLink';
-import Content from '../common/Content';
+import BannerLink from '../common/bannerLink';
+import Content from '../common/content';
 
 class AboutPage extends Component {
   render() {
