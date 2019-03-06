@@ -25,6 +25,10 @@ class AboutPage extends Component {
             </Col>
             <Col xs="12" m="6" lg="6" xl="6">
             <Content
+              title="Background."
+              content="Currently, I work full-time as a full stack developer in New York City. Outside of work, I focuses on UX/UI Design, am the COO and Co-Founder of MacScientists, Founder and Content Curator of Society x Tech. I graduated from the University of Pittsburgh with a Bachelor's of Science in Computer Engineering."
+            />
+            <Content
               title="My Vision."
               content="I want to explore the use of different technology solutions and frameworks as well as different perspectives to continue developing my skillset both professionally  and personally that will allow me strategize, drive and manage changes within my current organization as well as encourage and influence positive, sustainable technological solutions."
             />
