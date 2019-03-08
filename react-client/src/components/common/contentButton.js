@@ -22,7 +22,7 @@ class ContentButton extends Component {
             </div>
             <div>
               <a href={this.state.buttonLink} target="_blank">
-                <Button className="action-button">{this.state.buttonText}</Button>
+                <Button className="action-button" size="lg">{this.state.buttonText}</Button>
               </a>
             </div>
       </div>

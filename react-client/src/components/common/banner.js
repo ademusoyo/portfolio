@@ -19,7 +19,7 @@ class Banner extends Component {
       <div className={this.state.backgroundColor}>
         <Row>
         <Col xs="12" m="6" lg="6" xl="6">
-        <div className="indented-section">
+        <div className="indented-section" id="header-section">
           <div className="main-headerText">{this.state.headerText}</div>
           <div className="main-subText">{this.state.subText}</div>
         </div>

@@ -6,6 +6,7 @@ import NavBar from './headerComponent/navBar.js';
 import Footer from './footerComponent/footer.js';
 import AboutPage from './pages/aboutPage.js';
 import MagnegPage from './pages/magnegCaseStudyPage.js';
+import SchedxPage from './pages/schedxCaseStudy.js'
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
           <Route name="home" exact path="/" component={HomePage} />
           <Route name="about" exact path="/about" component={AboutPage} />
           <Route name="magneg" exact path="/magneg_case_study" component={MagnegPage} />
+          <Route name="schedx" exact path="/schedx_case_study" component = {SchedxPage} />
           <Footer />
         </div>
 

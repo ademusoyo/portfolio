@@ -15,7 +15,7 @@ class HomePage extends Component {
         <div className="main-content">
           <Banner backgroundColor="homepage-banner"
           headerText={"Hi. I'm Ademusoyo."}
-          subText="Designer, Developer, STEM Advocate"
+          subText="A software developer, UX/UI designer, and content creater based in New York City."
           image={colorLogo} id="homepage-header" />
               <div className="projects">
                 <Col xs="12" sm="12" md="4" lg="4" xl="4">
@@ -26,11 +26,11 @@ class HomePage extends Component {
                   </Link>
                 </Col>
                 <Col xs="12" sm="12" md="4" lg="4" xl="4">
-                  <a href="https://medium.com/@Ademusoyo/personal-trainer-app-ux-ui-design-challenge-case-study-1af22c7bdb36" target="_blank">
+                  <Link to="/schedx_case_study">
                   <div className="project">
                     <img className="project-image" src={Schedx} />
                   </div>
-                  </a>
+                  </Link>
                 </Col>
               </div>
         </div>

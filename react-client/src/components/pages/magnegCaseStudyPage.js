@@ -112,17 +112,12 @@ class MagnegPage extends Component {
               />
               </Col>
               <Col xs="12" md="6" lg="6" xl="6">
-                <Content title="Mockups"
+                <ContentButton title="Mockups"
                   content="From the wireframes, it was time to bring our product to life by adding color and implementing iOS design best practices. Preference and usability testing was conducted to prompting more iterations before determining the finished result. From the preference tests, we saw that users preferred the hidden menu option rather than the options being listed at the bottom of the screen, however, when considering best design practices, it is better for it to be at the bottom   of the screen. When conducting usability testing, all users found the app to be intuitive and easy to use."
+                  buttonText="View Prototype"
+                  buttonLink="https://www.figma.com/proto/MLLZbAK70j2aG3NCv8Lad28h/Finishing-Touches?node-id=140%3A2&viewport=2036%2C1388%2C0.5&scaling=scale-down"
                     />
               </Col>
-              </Row>
-              <div style={{display: "flex", justifyContent: "center", marginBottom: "1.5em", marginRight: "9em"}}>
-                <a href="https://www.figma.com/proto/MLLZbAK70j2aG3NCv8Lad28h/Finishing-Touches?node-id=140%3A2&viewport=2036%2C1388%2C0.5&scaling=scale-down" target="_blank">
-                <Button className="action-button" size="lg" id="long-action-button" style={{marginRight: "300px"}} block>View Prototype</Button>
-                </a>
-              </div>
-              <Row>
               <Col xs="12" md="4" lg="4" xl="4">
               <Content
                 title="Takeaways"
