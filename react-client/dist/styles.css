@@ -2,9 +2,12 @@ header {
   display: block;
   width: 100%;
   height: 70px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
-  z-index: 10;
   background-color: #536271;
+}
+
+#app{
+  background-color: #C5C3C6;
+  height: 300%;
 }
 
 
@@ -12,9 +15,6 @@ header {
   background-color: #615F69;
 }
 
-body{
-  background-color: #C5C3C6 !important;;
-}
 
 .header-menu{
   color: black;
@@ -42,7 +42,6 @@ footer {
   max-width: 100%;
   background-color: #536271;
   color: white;
-  margin-top: "2em";
   bottom: 0;
   clear: both;
   position: relative;
@@ -96,7 +95,7 @@ footer {
 }
 
 #contact-button{
-  margin-left: 7% !important;
+  margin-left: 7%;
 }
 
 
@@ -106,7 +105,7 @@ footer {
   font-size: 32px;
   font-weight: 500;
   top: 45px;
-  padding-top: .75em!important;
+  padding-top: .75em;
 }
 
 .contact-footer{
@@ -122,8 +121,8 @@ footer {
 
 .action-button{
   background-color: #4B2E39;
-  color: #C8D3D0 !important;
-  font-family: 'Poppins', sans-serif !important;
+  color: #C8D3D0;
+  font-family: 'Poppins', sans-serif;
   margin: 1.5em;
   border-radius: 60px;
   padding-bottom: 1.5em;
@@ -135,6 +134,10 @@ footer {
 
 a{
   margin: .5em;
+}
+
+a:hover{
+  color: #95B9C7;
 }
 
 .main-content-header{
@@ -182,9 +185,9 @@ a{
 
 .content-header{
   font-size: 32px;
-  font-family: 'Poppins', sans-serif !important;
+  font-family: 'Poppins', sans-serif;
   font-weight: bold;
-  margin-bottom: .5em !important;
+  margin-bottom: .5em;
   margin-top: .5em;
 }
 
@@ -197,8 +200,8 @@ a{
 }
 
 .subheader-content{
-  width: 50% !important;
-  font-family: 'Poppins', sans-serif !important;
+  width: 50%;
+  font-family: 'Poppins', sans-serif;
   margin-top: 4em;
   font-size: 18px;
 }
@@ -241,7 +244,7 @@ a{
 
 /* Hamburger Menu */
 .menu-item{
-  font-family: 'Poppins', sans-serif !important;
+  font-family: 'Poppins', sans-serif;
   font-size: 22px;
   text-align: center;
   color: #C8D3D0;
@@ -339,7 +342,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   }
 
   #header-section{
-    margin-left: 0% !important;
+    margin-left: 0%;
   }
 
   .main-headerText{
@@ -349,7 +352,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
   .main-subText{
     text-align: center;
-    font-size: 16px !important;
+    font-size: 16px;
     width: 75%;
     margin-left: 13%;
   }
@@ -363,7 +366,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   }
 
   .focal-image{
-    left: 30px !important;
+    left: 30px;
   }
 
   #long-action-button{
@@ -372,7 +375,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   }
 
   .content-image #pieChart{
-    width: 90% !important;
+    width: 90%;
   }
 
   .content-image{
@@ -388,10 +391,14 @@ Note: Beware of modifying this element as it can break the animations - you shou
     width: 300%
   }
 
+  .action-button{
+    margin-left: 0%;
+  }
+
 
 
   .subheader-text{
-    width: 100% !important;
+    width: 100%;
   }
 
   .subheader-content{
@@ -413,13 +420,13 @@ Note: Beware of modifying this element as it can break the animations - you shou
   }
 
   #footer-content{
-    font-size: 14px !important;
+    font-size: 14px;
 
   }
 
   #contact-button{
     margin-bottom: 5%;
-    margin-left: 35% !important;
+    margin-left: 35%;
   }
 
   .contact-footer{
@@ -457,13 +464,13 @@ Note: Beware of modifying this element as it can break the animations - you shou
     margin-left: 25%;
   }
 
-
-
-  header{
+  body{
+    height: 200%;
+    position: relative;
   }
 
   #header-section{
-    margin-left: 0% !important;
+    margin-left: 0%;
   }
 
   .main-headerText{
@@ -473,32 +480,33 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
   .main-subText{
     text-align: center;
-    font-size: 20px !important;
+    font-size: 20px;
     width: 75%;
     margin-left: 13%;
   }
 
   .projects{
-    margin-left: 30%;
+    margin-left: 20%;
+    height: 80%;
   }
 
   .project-image{
-    width: 65% !important;
+    width: 65%;
   }
 
 
   .focal-image{
-    margin-left: 100px !important;
+    margin-left: 100px;
   }
 
 
   #pieChart{
-    width: 100% !important;
+    width: 100%;
 
   }
 
   .content-image{
-    width: 50% !important;
+    width: 50%;
   }
 
   .content-image{
@@ -521,8 +529,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 
   .subheader-text{
-    width: 150% !important;
-    font-size: 24px !important;
+    width: 150%;
+    font-size: 24px;
   }
 
   .subheader-content{
@@ -535,7 +543,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
   .project-image{
     display: block;
-    margin-right: 15% !important;
+    margin-right: 15%;
     width: 80%;
   }
 
@@ -547,13 +555,13 @@ Note: Beware of modifying this element as it can break the animations - you shou
   }
 
   #footer-content{
-    font-size: 18px !important;
+    font-size: 18px;
 
   }
 
   #contact-button{
     margin-bottom: 5%;
-    margin-left: 43% !important;
+    margin-left: 43%;
   }
 
 
@@ -563,7 +571,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 }
 
-@media (min-width: 769px) and (max-width: 1025px){
+@media (min-width: 769px) and (max-width: 1024px){
   .banner-image{
     display: block;
     width: 30%;
@@ -598,10 +606,10 @@ Note: Beware of modifying this element as it can break the animations - you shou
   }
 
   body{
-    height: 300%;
+    height: 200%;
   }
   #header-section{
-    margin-left: 0% !important;
+    margin-left: 0%;
   }
 
   .main-headerText{
@@ -611,7 +619,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
   .main-subText{
     text-align: center;
-    font-size: 20px !important;
+    font-size: 20px;
     width: 75%;
     margin-left: 13%;
   }
@@ -622,13 +630,13 @@ Note: Beware of modifying this element as it can break the animations - you shou
   }
 
   .project-image{
-    width: 100% !important;
+    width: 100%;
     margin-left: 1.5em;
   }
 
 
   .focal-image{
-    margin-left: 180px !important;
+    margin-left: 180px;
     margin-bottom: 2.5em;
   }
 
@@ -660,8 +668,8 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 
   .subheader-text{
-    width: 150% !important;
-    font-size: 24px !important;
+    width: 150%;
+    font-size: 24px;
   }
 
   .subheader-content{
@@ -680,7 +688,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   }
 
   footer{
-    top: 400px;
+    top: 300px;
     width: 100%;
   }
 
@@ -689,13 +697,14 @@ Note: Beware of modifying this element as it can break the animations - you shou
   }
 
   #footer-content{
-    font-size: 18px !important;
+    font-size: 18px;
 
   }
 
   #contact-button{
     margin-bottom: 5%;
-    margin-left: 43% !important;
+    margin-left: 45%;
+    margin-right: 50%;
   }
 
 
