@@ -387,9 +387,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
     margin-left: 27%;
   }
 
-  .bullet-item{
-    width: 300%
-  }
 
   .action-button{
     margin-left: 0%;
@@ -522,11 +519,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
     margin-left: 27%;
   }
 
-  .bullet-item{
-    width: 300%
-  }
-
-
 
   .subheader-text{
     width: 150%;
@@ -539,6 +531,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
   .bullet-item{
     font-size: 20px;
+    width: 90%
   }
 
   .project-image{
@@ -661,9 +654,6 @@ Note: Beware of modifying this element as it can break the animations - you shou
     margin-left: 30%;
   }
 
-  .bullet-item{
-    width: 300%
-  }
 
 
 
@@ -677,6 +667,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   }
 
   .bullet-item{
+    width: 90%;
     font-size: 20px;
   }
 
