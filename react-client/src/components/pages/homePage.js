@@ -15,7 +15,7 @@ class HomePage extends Component {
         <div className="main-content">
           <Banner backgroundColor="homepage-banner"
           headerText={"Hi. I'm Ademusoyo."}
-          subText="A software developer, UX/UI designer, and content creater based in New York City."
+          subText="A software developer, UX/UI designer, and content creator based in New York City."
           image={colorLogo} id="homepage-header" />
               <div className="projects">
                 <Col xs="12" sm="12" md="4" lg="4" xl="4">
