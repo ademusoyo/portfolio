@@ -25,7 +25,8 @@ class MagnegPage extends Component {
           role="Role: User Research, Design, Brand Identity"
           buttonText="View Prototype"
           buttonLink="https://www.figma.com/proto/MLLZbAK70j2aG3NCv8Lad28h/Finishing-Touches?node-id=140%3A2&viewport=2036%2C1388%2C0.5&scaling=scale-down"
-          image={magnegIphone} />
+          image={magnegIphone}
+          id="magneg-image" />
           <div className="main-content">
             <div className="indented-section">
               <Row>

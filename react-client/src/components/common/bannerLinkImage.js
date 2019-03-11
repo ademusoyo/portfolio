@@ -12,7 +12,8 @@ class BannerLinkImage extends Component {
       role: this.props.role,
       buttonText: this.props.buttonText,
       buttonLink: this.props.buttonLink,
-      image: this.props.image
+      image: this.props.image,
+      imageId: this.props.imageId
     }
 
   }
@@ -32,7 +33,7 @@ class BannerLinkImage extends Component {
         </div>
         </Col>
         <Col xs="12" m="6" lg="6" xl="6">
-          <img src={this.state.image} className="banner-link-image" />
+          <img src={this.state.image} className="banner-link-image" id={this.state.imageId} />
         </Col>
         </Row>
       </div>

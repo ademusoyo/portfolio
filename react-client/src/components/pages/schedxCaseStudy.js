@@ -23,7 +23,8 @@ class SchedxPage extends Component {
           role="Role: Design, Brand Identity"
           buttonText="View Prototype"
           buttonLink="https://www.figma.com/proto/fWNlQBHMqxPdfucZSbMlHxyv/schedx?node-id=1%3A2&viewport=440%2C427%2C0.25&scaling=scale-down"
-          image={schedxIphone} />
+          image={schedxIphone}
+          imageId="schedx-image" />
           <div className="main-content">
             <div className="indented-section">
               <Row>
