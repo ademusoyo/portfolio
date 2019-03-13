@@ -26,11 +26,11 @@ class AboutPage extends Component {
             <Col xs="12" m="6" lg="6" xl="6">
             <Content
               title="Background."
-              content="Currently, I work full-time as a full stack developer in New York City. Outside of work, I focus on UX/UI Design, am the COO and Co-Founder of MacScientists, and the Founder and Content Curator of Society x Tech. I graduated from the University of Pittsburgh with a Bachelor's of Science in Computer Engineering."
+              content="Ademusoyo primarily works  as a full stack developer in New York City. Outside of work, she focus on UX/UI Design, the COO and Co-Founder of MacScientists, and the Founder and Content Curator of Society x Tech. She graduated from the University of Pittsburgh with a Bachelor's of Science in Computer Engineering. She is always looking for a new skill to learn to make her a better professional as well as broaden her perspective."
             />
             <Content
               title="My Vision."
-              content="My goal is  to explore the use of different technology solutions and frameworks as well as different perspectives to continue developing my skillset both professionally and personally. By increasing my knowledge and perspective, it will allow me to strategize, drive and manage changes within my current organization as well as encourage and influence positive, sustainable technological solutions."
+              content="Her goal is  to explore the use of different technology solutions and frameworks as well as different perspectives to continue developing her skillset both professionally and personally. By increasing her knowledge and perspective, she hopes that it will allow her to strategize, drive and manage changes within her current organization as well as encourage and influence positive, sustainable technological solutions."
             />
               <Content title="Why Design?"
                 content="Design tells a story. It allows you to explore creatively while also developing an understanding of different cultures and the way the human mind works."

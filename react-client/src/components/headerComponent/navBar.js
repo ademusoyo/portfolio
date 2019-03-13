@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import img from '../../images/logo.png'
 import { slide as Menu, MenuWrap } from 'react-burger-menu'
+import { HashLink } from 'react-router-hash-link';
 
 class NavBar extends Component {
   constructor(props){
@@ -15,6 +16,7 @@ class NavBar extends Component {
           <Menu className="header-menu"  right >
             <a id="home" className="menu-item" href="/">Home</a>
             <a id="about" className="menu-item" href="/about">About</a>
+            <HashLink id="caseStudies" className="menu-item" to="/#caseStudies">Case Studies</HashLink>
             <a id="contact" className="menu-item" href="mailto:ademusoyo@gmail.com">Contact</a>
           </Menu>
           <Link to="/">
