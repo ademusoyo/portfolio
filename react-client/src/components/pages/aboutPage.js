@@ -14,7 +14,6 @@ class AboutPage extends Component {
         <BannerLink
           backgroundColor="about-banner"
           headerText="About Me."
-          subText="Full Stack Developer, Product and Brand Strategist, UX/ UI Designer, STEM Influencer, Blogger, Content Curator."
           buttonText="View Resume"
           buttonLink="https://drive.google.com/file/d/1GbZrazttBnTpWZ1ZQxz2fSaVbXUg4j1A/view?usp=sharing" />
           <div className="main-content">
@@ -29,14 +28,9 @@ class AboutPage extends Component {
               content="Ademusoyo primarily works  as a full stack developer in New York City. Outside of work, she focus on UX/UI Design, the COO and Co-Founder of MacScientists, and the Founder and Content Curator of Society x Tech. She graduated from the University of Pittsburgh with a Bachelor's of Science in Computer Engineering. She is always looking for a new skill to learn to make her a better professional as well as broaden her perspective."
             />
             <Content
-              title="My Vision."
+              title="Vision."
               content="Her goal is  to explore the use of different technology solutions and frameworks as well as different perspectives to continue developing her skillset both professionally and personally. By increasing her knowledge and perspective, she hopes that it will allow her to strategize, drive and manage changes within her current organization as well as encourage and influence positive, sustainable technological solutions."
             />
-              <Content title="Why Design?"
-                content="Design tells a story. It allows you to explore creatively while also developing an understanding of different cultures and the way the human mind works."
-                  />
-              <Content
-                content="With design you have direct influence on how we can best create sustainable and impactful technologies. By designing applications that are accessible, encourage mindful best practices and are inclusive of all demographics, you’re decreasing the gap between those that don’t understand technology through accessibility." />
 
             </Col>
             </Row>

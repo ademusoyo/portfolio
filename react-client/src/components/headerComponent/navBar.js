@@ -20,7 +20,7 @@ class NavBar extends Component {
             <a id="contact" className="menu-item" href="mailto:ademusoyo@gmail.com">Contact</a>
           </Menu>
           <Link to="/">
-            <img src={img} alt="My logo d e m u " style={{ position: "relative", marginLeft: "2em", bottom: "20px"}} className="logo-image"/>
+            <img src={img} alt="My logo d e m u " style={{ position: "relative", marginLeft: "4em", bottom: "20px"}} className="logo-image"/>
           </Link>
       </header>
     )

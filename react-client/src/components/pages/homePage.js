@@ -17,6 +17,7 @@ class HomePage extends Component {
           headerText={"Hi. I'm Ademusoyo."}
           subText="A software developer, UX/UI designer, and content creator based in New York City."
           image={colorLogo} id="homepage-header" />
+          <div className="content-header" style={{textAlign: "center", textDecoration: "underline"}}>Case Studies</div>
               <div className="projects" id="caseStudies">
                 <Col xs="12" sm="12" md="4" lg="4" xl="4">
                   <Link to="/magneg_case_study">
