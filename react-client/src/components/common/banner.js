@@ -18,15 +18,10 @@ class Banner extends Component {
     return (
       <div className={this.state.backgroundColor}>
         <Row>
-        <Col xs="12" m="6" lg="6" xl="6">
         <div className="indented-section" id="header-section">
           <div className="main-headerText">{this.state.headerText}</div>
           <div className="main-subText">{this.state.subText}</div>
         </div>
-        </Col>
-        <Col xs="12" m="6" lg="6" xl="6">
-          <img src={this.state.image} alt="4 circles in a square" className="banner-image"/>
-        </Col>
         </Row>
       </div>
     )

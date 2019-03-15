@@ -19,7 +19,7 @@ class BannerLink extends Component {
     return (
       <div className={this.state.backgroundColor}>
         <Row>
-        <div className="indented-section" id="header-section">
+        <div className="indented-section" id="about-header">
           <div className="main-headerText">{this.state.headerText}</div>
           <div className="main-subText">{this.state.subText}</div>
           <a href={this.state.buttonLink} target="_blank">

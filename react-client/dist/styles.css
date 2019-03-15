@@ -11,6 +11,7 @@ header {
 #app{
   background-color: #C5C3C6;
   height: 300%;
+  overflow-x: hidden;
 }
 
 
@@ -63,12 +64,18 @@ footer {
   margin-left: 104px;
 }
 
+#header-section{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 .main-headerText{
   font-size: 48px;
   font-family: 'Poppins', sans-serif;
   color: #C8D3D0;
-  margin-top: .5em;
   font-weight: 600;
+  margin-top: .5em;
+
 }
 
 .main-subText{
@@ -76,11 +83,13 @@ footer {
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
   color: #C8D3D0;
+
 }
 
 .homepage-banner{
   background-color: #7E7589;
   width: 100%;
+  text-align: center;
 }
 
 .about-banner{
@@ -239,12 +248,13 @@ a:hover{
 }
 
 .banner-link-image{
-  margin-top: 1em;
+  margin-top: 9%;
 }
 
 #schedx-image{
-  margin-top: 3.1em;
+  margin-top: 13%;
 }
+
 .content-image{
   margin-bottom: 2.5em;
 }
@@ -348,7 +358,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
     top: 20px;
   }
 
-  #header-section{
+  #header-section, #footer-section, #about-header{
     margin-left: 0%;
   }
 
@@ -468,8 +478,12 @@ Note: Beware of modifying this element as it can break the animations - you shou
     position: relative;
   }
 
-  #header-section{
+  #header-section, #footer-section, #about-header{
     margin-left: 0%;
+  }
+
+  #schedx-image{
+    margin-top: 0%;
   }
 
   .main-headerText{
@@ -485,14 +499,12 @@ Note: Beware of modifying this element as it can break the animations - you shou
   }
 
   .projects{
-    margin-left: 20%;
-    height: 80%;
+    margin-left: 35%;
   }
 
-  .project-image{
-    width: 65%;
+  .project{
+    width: 55%;
   }
-
 
   .focal-image{
     margin-left: 100px;
@@ -599,7 +611,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   body{
     height: 200%;
   }
-  #header-section{
+  #header-section, #footer-section, #about-header{
     margin-left: 0%;
   }
 
@@ -616,13 +628,16 @@ Note: Beware of modifying this element as it can break the animations - you shou
   }
 
   .projects{
-    margin-left: 0%;
+    margin-left: 30%;
     align-content: center;
   }
 
   .project-image{
-    width: 100%;
     margin-left: 1.5em;
+  }
+
+  .project{
+    width: 65%;
   }
 
 
@@ -636,11 +651,9 @@ Note: Beware of modifying this element as it can break the animations - you shou
     width: 10em;
   }
 
-  .content-image{
-  }
 
   .content-image{
-    width: 75%;
+    width: 45%;
   }
 
   .content-body{
@@ -650,6 +663,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
   .banner-link-image{
     width: 40%;
     margin-left: 30%;
+    margin-top: 0%;
   }
 
 

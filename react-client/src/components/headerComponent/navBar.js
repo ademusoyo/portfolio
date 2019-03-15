@@ -16,8 +16,7 @@ class NavBar extends Component {
           <Menu className="header-menu"  right >
             <a id="home" className="menu-item" href="/">Home</a>
             <a id="about" className="menu-item" href="/about">About</a>
-            <HashLink id="caseStudies" className="menu-item" to="/#caseStudies">Case Studies</HashLink>
-            <a id="contact" className="menu-item" href="mailto:ademusoyo@gmail.com">Contact</a>
+            <a id="recent-case-study" className="menu-item" href="/magneg_case_study"> View Recent Case Study </a>
           </Menu>
           <Link to="/">
             <img src={img} alt="My logo d e m u " style={{ position: "relative", marginLeft: "4em", bottom: "20px"}} className="logo-image"/>

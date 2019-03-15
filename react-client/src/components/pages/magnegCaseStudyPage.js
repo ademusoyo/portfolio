@@ -52,13 +52,9 @@ class MagnegPage extends Component {
               </Row>
               <Row>
               <Col xs="12" md="6" lg="6" xl="6">
-              <ContentImage
-                title=""
-                content=""
-                image={magnegPieChart}
-              />
+              <img src={magnegPieChart} className="content-image" />
               </Col>
-              <Col xs="12" md="3" lg="3" xl="3" className="subheader-content">
+              <Col xs="12" md="3" lg="3" xl="3" className="subheader-content" style={{marginLeft: "10%"}}>
                 <div className="subheader-text">Common Cloud Storage Features</div>
                 <ul>
                   <li className="bullet-item">Uploading Content</li>

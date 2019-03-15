@@ -11,7 +11,7 @@ class Footer extends Component {
   render() {
     return (
         <footer>
-          <div className="indented-section" id="header-section">
+          <div className="indented-section" id="footer-section">
           <div className="footer-header">{"Let's Connect"}</div>
           <div className="main-subText" style={{wordWrap: "break-word" }} id="footer-content">Are you interested in working together? <br />
               Want to discuss UX, Tech, or anything in between? Email me so we can discuss.</div>
