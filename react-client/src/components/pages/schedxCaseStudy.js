@@ -8,6 +8,7 @@ import BannerLinkImage from '../common/bannerLinkImage';
 import Content from '../common/content';
 import ContentImage from '../common/contentImage';
 import ContentButton from '../common/contentButton';
+import ContentButtonLinkImage from '../common/ContentButtonLinkImage'
 import schedxIphone from "../../images/schedx-pic.png";
 import schedxSketches from "../../images/schedx-sketches.png";
 import schedxDesigns from "../../images/schedx-final-designs.png"
@@ -61,16 +62,13 @@ class SchedxPage extends Component {
                     />
               </Col>
               <Col xs="12" md="6" lg="6" xl="6">
-              <ContentImage
+              <ContentButtonLinkImage
                 title="Mockups"
                 content="From the sketches, we moved into design. We drew inspiration from Google Calendar's look and feel and went with a to-do app style for scheduling workouts."
                 image={schedxDesigns}
+                buttonText="View Prototype"
+                buttonLink="https://www.figma.com/proto/fWNlQBHMqxPdfucZSbMlHxyv/schedx?node-id=27%3A106&viewport=440%2C427%2C0.25&scaling=scale-down"
               />
-              <div>
-                <a href="https://www.figma.com/proto/fWNlQBHMqxPdfucZSbMlHxyv/schedx?node-id=27%3A106&viewport=440%2C427%2C0.25&scaling=scale-down" target="_blank">
-                  <Button className="action-button" size="lg">View Prototype</Button>
-                </a>
-              </div>
               </Col>
               </Row>
               <Row style={{marginBottom: "2em"}}>

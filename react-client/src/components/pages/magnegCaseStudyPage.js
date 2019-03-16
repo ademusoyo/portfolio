@@ -8,6 +8,7 @@ import BannerLinkImage from '../common/bannerLinkImage';
 import Content from '../common/content';
 import ContentImage from '../common/contentImage';
 import ContentButton from '../common/contentButton';
+import ContentButtonLinkImage from '../common/contentButtonLinkImage';
 import magnegIphone from "../../images/magneg-iphone.png";
 import magnegPieChart from "../../images/pie-chart-magneg.png";
 import magnegCompetitive from "../../images/magneg-competitive.png";
@@ -87,10 +88,12 @@ class MagnegPage extends Component {
               </Row>
               <Row>
               <Col xs="12" md="6" lg="6" xl="6">
-              <ContentImage
+              <ContentButtonLinkImage
                 title="Branding"
                 content="Before jumping into the design, we wanted to determine the overall look and feel for the app. We wanted it to be colorful, but also present a very minimalistic look and feel for the design. We chose to use more cool colors that symbolize reliability and trust within the platform and we chose to pair the fonts Karla and Montserrat because we felt that they gave a more fun and collaborative vibe within the platform."
                 image={magnegColors}
+                buttonText="View Style Guide"
+                buttonLink="https://drive.google.com/open?id=1tJUeHrQD-ZXifzsK5WmA4LKyJemHVXe9"
               />
               </Col>
               <Col xs="12" md="6" lg="6" xl="6">
@@ -103,9 +106,11 @@ class MagnegPage extends Component {
               </Row>
               <Row>
               <Col xs="12" md="6" lg="6" xl="6">
-              <Content
+              <ContentButton
                 title="Wireframes"
                 content="Low-Fi wireframes were created, tested, and iterated before graduating to the hi-fidelity mockup stage. Usability testing was conducted in person  testing users ability to upload a file, organize a file, and create an account with a clickable low-fi prototype. Overall the results were positive stating that the only roadblock was to make the buttons stand out and to make the organize a file option more clear."
+                buttonText="View Wireframes"
+                buttonLink="https://drive.google.com/open?id=1k8k4w049hJTh-LYeAXYi6DO1Zhiqb-qf"
               />
               </Col>
               <Col xs="12" md="6" lg="6" xl="6">
@@ -132,6 +137,9 @@ class MagnegPage extends Component {
                     />
               </Col>
               </Row>
+              <div className="content-body"  id="next-link">
+                <Link to="/schedx_case_study" className="nav-link">View Previous Case Study</Link>
+              </div>
           </div>
         </div>
       </div>

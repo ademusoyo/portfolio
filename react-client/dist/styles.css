@@ -52,7 +52,7 @@ footer {
 }
 
 .nav-link{
-  color: #C8D3D0;
+  color: #4B2E39;
 }
 
 .nav-link:hover{
@@ -110,6 +110,11 @@ footer {
   margin-left: 7%;
 }
 
+#next-link{
+  text-align: right;
+  padding-right: 10%;
+  font-style: italic;
+}
 
 .footer-header{
   font-family: 'Poppins', sans-serif;
@@ -603,9 +608,13 @@ Note: Beware of modifying this element as it can break the animations - you shou
     margin-left: 25%;
   }
 
+  #schedx-image{
+      margin-top: 0%;
+      margin-left: 30%;
+  }
 
-
-  header{
+  #magneg-image{
+    margin-top: 0%;
   }
 
   body{
@@ -640,79 +649,14 @@ Note: Beware of modifying this element as it can break the animations - you shou
     width: 65%;
   }
 
-
-  .focal-image{
-    margin-left: 180px;
-    margin-bottom: 2.5em;
-  }
-
-
-  #pieChart{
-    width: 10em;
-  }
-
-
-  .content-image{
-    width: 45%;
-  }
-
-  .content-body{
-    font-size: 20px;
-  }
-
-  .banner-link-image{
-    width: 40%;
-    margin-left: 30%;
-    margin-top: 0%;
-  }
-
-
-
-
-  .subheader-text{
-    width: 150%;
-    font-size: 24px;
-  }
-
-  .subheader-content{
-    width: 100%;
-  }
-
-  .bullet-item{
-    width: 90%;
-    font-size: 20px;
-  }
-
-  .project-image{
-  }
-
-  .project{
-    width: 100%;
-  }
-
-  footer{
-    top: 300px;
-    width: 100%;
-  }
-
   .footer-header{
     text-align: center;
   }
 
-  #footer-content{
-    font-size: 18px;
-
-  }
-
   #contact-button{
-    margin-bottom: 5%;
-    margin-left: 45%;
-    margin-right: 50%;
+    margin-left: 43%;
   }
-
 
   .contact-footer{
-    margin-left: 0;
+    margin-right: 10%;
   }
-
-}
