@@ -8,7 +8,7 @@ import BannerLinkImage from '../common/bannerLinkImage';
 import Content from '../common/content';
 import ContentImage from '../common/contentImage';
 import ContentButton from '../common/contentButton';
-import ContentButtonLinkImage from '../common/ContentButtonLinkImage'
+import ContentButtonLinkImage from '../common/contentButtonLinkImage'
 import schedxIphone from "../../images/schedx-pic.png";
 import schedxSketches from "../../images/schedx-sketches.png";
 import schedxDesigns from "../../images/schedx-final-designs.png"
