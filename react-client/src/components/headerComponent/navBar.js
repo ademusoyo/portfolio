@@ -7,21 +7,32 @@ import { HashLink } from 'react-router-hash-link';
 class NavBar extends Component {
   constructor(props){
     super(props);
+    this.state = {
+      headerId: this.props.headerId
+    };
+
 
   }
 
   render() {
     return (
-      <header>
-          <Menu className="header-menu"  right >
-            <a id="home" className="menu-item" href="/">Home</a>
-            <a id="about" className="menu-item" href="/about">About</a>
-            <a id="recent-case-study" className="menu-item" href="/magneg_case_study"> View Recent Case Study </a>
+      <div className={this.state.headerId}>
+          <Menu right >
+            <Link className="menu-link"to="/about">About</Link>
+            <Link className="menu-link" to="/work">Work</Link>
+            <a className="menu-link" href="https://mailchi.mp/02da2a5b2d98/societyxtech">Contact</a>
           </Menu>
+          <ul id="headerButtons">
+          <li className="navButton"><a className="nav-link" href="https://mailchi.mp/02da2a5b2d98/societyxtech" target="_blank">Subscribe</a></li>
+            <li className="navButton"><Link className="nav-link" to="/work">Work</Link></li>
+            <li className="navButton"><Link className="nav-link"to="/about">About</Link></li>
+
+
+          </ul>
           <Link to="/">
-            <img src={img} alt="My logo d e m u " style={{ position: "relative", marginLeft: "4em", bottom: "20px"}} className="logo-image"/>
+            <img src={img} alt="My logo d e m u " className="logo-image"/>
           </Link>
-      </header>
+      </div>
     )
   }
 }
