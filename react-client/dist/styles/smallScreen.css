@@ -1,0 +1,138 @@
+  .banner-image{
+    display: block;
+    width: 50%;
+  }
+
+  .bm-burger-button {
+    visibility: visible;
+  }
+
+  #headerButtons{
+    visibility: hidden;
+  }
+
+  .logo-image{
+    margin-left: 2%;
+    margin-right: 20%;
+    margin-top: 0;
+    bottom: 50px;
+  }
+
+  #my-hero-image{
+    margin-left: 25%;
+    width: 25%;
+  }
+
+  .bm-burger-button {
+    position: relative;
+    width: 36px;
+    height: 30px;
+    left: 80%;
+    top: 20px;
+  }
+
+  #header-section, #footer-section, #about-header{
+    margin-left: 0%;
+  }
+
+  .group{
+    margin-left: 0%;
+    margin-right: 30%;
+    width: 80%;
+  }
+
+  .main-headerText{
+    text-align: center;
+    right: 5em;
+  }
+
+  .main-subText{
+    text-align: center;
+    font-size: 16px;
+    width: 75%;
+    margin-left: 13%;
+  }
+
+  .project{
+    margin-right: 30%;
+  }
+
+  p{
+    width: 80%;
+  }
+
+  #banner-button{
+    margin-left: 10%;
+  }
+
+  #banner-button-2{
+    margin-left: 30%;
+  }
+
+  #banner-button-3{
+    margin-right: 20%;
+  }
+
+  .focal-image{
+    margin-Left: 25%;
+  }
+
+  .content-image #pieChart{
+    width: 90%;
+  }
+
+  #caption-2{
+    text-align: center;
+  }
+
+  .content-image{
+    width: 75%;
+  }
+
+  .banner-link-image{
+    width: 50%;
+    margin-left: 27%;
+  }
+
+
+  .action-button{
+    margin-left: 0%;
+  }
+
+
+
+  .subheader-text{
+    width: 100%;
+  }
+
+  .subheader-content{
+    width: 100%;
+  }
+
+  .project-image{
+    display: block;
+    margin-right: 10%;
+    width: 120%;
+  }
+
+  footer{
+    width: 100%;
+  }
+
+  .footer-header{
+    text-align: center;
+  }
+
+  #footer-content{
+    font-size: 14px;
+
+  }
+
+  #contact-button{
+    margin-bottom: 5%;
+    margin-left: 35%;
+  }
+
+  .contact-footer{
+    margin-left: 0;
+  }

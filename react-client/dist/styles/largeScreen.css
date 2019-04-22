@@ -1,0 +1,110 @@
+  #my-hero-image{
+    padding-left: 5%;
+    padding-bottom: 20%;
+    top: 10px;
+  }
+  .banner-image{
+    display: block;
+    width: 30%;
+    margin-left: 35%;
+  }
+
+  #headerButtons{
+    visibility: hidden;
+  }
+
+
+  .bm-burger-button {
+    visibility: visible;
+  }
+
+
+  #banner-button{
+    margin-left: 0%;
+  }
+
+  #banner-button-2{
+    margin-left: 40%;
+  }
+
+
+  #banner-button-3{
+    margin-right: 45%;
+  }
+
+  p{
+    width: 80%;
+  }
+
+  #my-hero-image{
+      margin-left: 27%;
+      width: 40%;
+  }
+
+  #app{
+    height: 200% !important;
+  }
+
+  .bm-burger-button {
+    position: relative;
+    width: 36px;
+    height: 30px;
+    left: 90%;
+    top: 20px;
+  }
+
+  .action-button{
+    margin-left: 25%;
+  }
+
+  #schedx-image{
+      margin-top: 0%;
+      margin-left: 30%;
+  }
+
+  #magneg-image{
+    top: 40%;
+  }
+
+  #header-section, #footer-section, #about-header{
+    margin-left: 0%;
+  }
+
+  .main-headerText{
+    text-align: center;
+    right: 5em;
+  }
+
+  .main-subText{
+    text-align: center;
+    font-size: 20px;
+    width: 75%;
+    margin-left: 13%;
+  }
+
+  .projects{
+    margin-left: 30%;
+    align-content: center;
+  }
+
+  .project-image{
+    margin-left: 1.5em;
+  }
+
+  .project{
+    width: 65%;
+  }
+
+  .footer-header{
+    text-align: center;
+  }
+
+  #contact-button{
+    margin-left: 43%;
+  }
+
+  .short-footer{
+    margin-top: 0%;
+    bottom: 0px;
+
+  }

@@ -1,0 +1,152 @@
+  .banner-image{
+    display: block;
+    width: 30%;
+    margin-left: 35%;
+  }
+
+  .bm-burger-button {
+    visibility: visible;
+  }
+
+  #headerButtons{
+    visibility: hidden;
+  }
+
+  #my-hero-image{
+    padding-left: 5%;
+    padding-bottom: 20%;
+    top: 10px;
+  }
+
+
+  #banner-button{
+    margin-left: 5%;
+  }
+
+  #banner-button-2{
+    margin-left: 35%;
+  }
+
+  #banner-button-3{
+    margin-right: 45%;
+  }
+
+  p{
+    width: 80%;
+  }
+
+  .bm-burger-button {
+    position: relative;
+    width: 36px;
+    height: 30px;
+    left: 90%;
+    top: 20px;
+  }
+
+  #my-hero-image{
+    margin-left: 25%;
+  }
+
+  .action-button{
+    margin-left: 25%;
+  }
+
+  body{
+    height: 200%;
+    position: relative;
+  }
+
+  #header-section, #footer-section, #about-header{
+    margin-left: 0%;
+  }
+
+  #schedx-image{
+    margin-top: 0%;
+  }
+
+  .main-headerText{
+    text-align: center;
+    right: 5em;
+  }
+
+  .main-subText{
+    text-align: center;
+    font-size: 20px;
+    width: 75%;
+    margin-left: 13%;
+  }
+
+  .projects{
+    margin-left: 35%;
+  }
+
+  .project{
+    width: 55%;
+  }
+
+  .focal-image{
+    margin-left: 100px;
+  }
+
+
+  #pieChart{
+    width: 100%;
+
+  }
+
+  .content-image{
+    width: 50%;
+  }
+
+  .content-image{
+    width: 75%;
+  }
+
+  .content-body{
+    font-size: 20px;
+  }
+
+  .banner-link-image{
+    width: 50%;
+    margin-left: 27%;
+  }
+
+
+  .subheader-text{
+    width: 150%;
+    font-size: 24px;
+  }
+
+  .subheader-content{
+    width: 100%;
+  }
+
+  .bullet-item{
+    font-size: 20px;
+    width: 90%
+  }
+
+  .project-image{
+    display: block;
+    margin-right: 15%;
+    width: 80%;
+  }
+
+  .footer-header{
+    text-align: center;
+  }
+
+  #footer-content{
+    font-size: 18px;
+
+  }
+
+  #contact-button{
+    margin-bottom: 5%;
+    margin-left: 43%;
+  }
+
+
+  .contact-footer{
+    margin-left: 0;
+  }

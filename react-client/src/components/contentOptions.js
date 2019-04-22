@@ -1,0 +1,65 @@
+import React, { Component } from 'react';
+import {Card, Button, CardBody, Col, Row, CardTitle} from 'reactstrap';
+
+
+export const Content = ({title, content}) =>{
+  return (
+    <div>
+          <div className="content-header">{title} </div>
+          <div className="content-body">
+              {content}
+          </div>
+    </div>
+  );
+};
+
+export const ContentButton = ({title, content, buttonLink, buttonText}) =>{
+
+  return (
+    <div>
+          <div className="content-header">{title} </div>
+          <div className="content-body">
+              {content}
+          </div>
+          <div>
+            <a href={buttonLink} target="_blank">
+              <Button className="action-button" size="lg">{buttonText}</Button>
+            </a>
+          </div>
+    </div>
+  );
+
+};
+
+export const ContentButtonLinkImage = ({title, content, image, buttonLink, buttonText}) =>{
+  return (
+    <div>
+          <div className="content-header">{title} </div>
+          <div className="content-body">
+              {content}
+          </div>
+          <div>
+            <img src={image} className="content-image" />
+          </div>
+          <div>
+            <a href={buttonLink} target="_blank">
+              <Button className="action-button" size="lg" style={{marginBottom: "10%"}}>{buttonText}</Button>
+            </a>
+          </div>
+    </div>
+  );
+};
+
+export const ContentImage = ({title, content, image}) =>{
+  return (
+    <div>
+          <div className="content-header">{title} </div>
+          <div className="content-body">
+              {content}
+          </div>
+          <div>
+            <img src={image} className="content-image" />
+          </div>
+    </div>
+  );
+}
