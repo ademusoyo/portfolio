@@ -17,7 +17,7 @@ class ShortFooter extends Component {
               <a href="https://www.linkedin.com/in/ademusoyo/" target="_blank"><img src={linkedIn} alt = "linkedIn icon"/></a>
               <a href="https://twitter.com/societyxtech" target="_blank"><img src={twitter} alt = "twitter icon"/></a>
               <a href="https://medium.com/@Ademusoyo" target="_blank"><img src={medium} alt = "medium icon"/></a>
-              <a href="https://github.com/ademusoyo" target="_blank"><img src={github} alt = "medium icon"/></a>
+              <a href="https://github.com/ademusoyo" target="_blank"><img src={github} alt = "github icon"/></a>
           </div>
           <div className="content-body">Copyright © 2019 | Designed and Developed by Ademusoyo Awosika-Olumo</div>
       </div>

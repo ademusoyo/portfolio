@@ -216,7 +216,7 @@ footer {
 }
 
 .nav-link:hover{
-  color: #C8D3D0;
+  color: #5F506B;
   font-weight: 400;
 }
 
@@ -571,7 +571,7 @@ ul{
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-  background: #95B9C7;
+  background: #5F506B;
 }
 
 /* Position and sizing of clickable cross button */
