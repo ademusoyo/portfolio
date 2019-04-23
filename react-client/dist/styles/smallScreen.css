@@ -19,8 +19,14 @@
   }
 
   #my-hero-image{
-    margin-left: 25%;
-    width: 25%;
+    width: 75%;
+    margin-left: 13%;
+  }
+
+  #case-study-image{
+    width: 140%;
+    padding-right: 50%;
+
   }
 
   .bm-burger-button {
@@ -66,7 +72,7 @@
   }
 
   #banner-button-2{
-    margin-left: 30%;
+    margin-left: 27%;
   }
 
   #banner-button-3{
@@ -77,21 +83,142 @@
     margin-Left: 25%;
   }
 
-  .content-image #pieChart{
+  .content-image{
     width: 90%;
   }
 
-  #caption-2{
+  #percentage{
+    margin-left: 45%;
+  }
+
+  #disclaimer{
+    margin-left: 15%;
+  }
+
+  #tester{
+    margin-left: 30%;
+    width: 100%;
+  }
+
+  #testerPercentage{
+    margin-left: 65%;
+  }
+
+  #section-sub-header{
+    width: 100%;
+    margin-left: 25%;
+  }
+
+  #preferenceTestMockup{
+    margin-left: 40%;
+    width: 50%;
+  }
+
+  .key-features{
+    margin-left: 45% !important;
+  }
+
+  .content{
+    margin-left: 20%;
+  }
+
+  .content-body{
+    width: 80%;
+  }
+
+  ul{
+    margin-left: 20%;
+  }
+
+  .pie-chart-metric{
+    margin-left: 20%;
+  }
+
+  #competitive-image{
+    margin-left: 67%;
+  }
+
+  .caption{
+    margin-left: 55%;
+  }
+
+  #subCaption{
+    margin-left: 25%;
+    width: 100%;
+  }
+
+  #pie-chart{
+    margin-left: 5%;
+  }
+
+
+  .user-persona{
+    margin-left: 20%;
+    margin-bottom: 1.5em;
+    width: 100%;
+  }
+
+  #bio-text{
+    padding-right: 0%;
+    margin-left: 15%;
+  }
+
+  #adjustLeft{
+    margin-left: 42%;
+  }
+
+  #adjustLeft2{
+    margin-left: 50%;
+  }
+
+  .quote{
+    margin-right: 10%;
+    width: 100%;
+  }
+
+  /*.content-body{
+    text-align: center;
+  }*/
+
+  .case-study-section{
     text-align: center;
   }
 
-  .content-image{
-    width: 75%;
+  #case-study-header{
+    margin-right: 10%;
+  }
+
+  #case-study-description{
+    margin-left: 5%;
+
+  }
+
+  .closer{
+    right: 0px;
+  }
+
+  .indented-section{
+    margin-left: 0px;
+    margin-right: 30px;
+  }
+
+  #section-header{
+    margin-right: 0%;
+    margin-left: 20%;
+  }
+
+  #page-section-header{
+    width: 90%;
+  }
+
+  #about-body{
+    text-align: left;
+    margin-left: 5%;
   }
 
   .banner-link-image{
-    width: 50%;
-    margin-left: 27%;
+    width: 70%;
+    margin-left: 15%;
   }
 
 
@@ -135,4 +262,62 @@
 
   .contact-footer{
     margin-left: 0;
+  }
+
+  .group{
+    margin-left: 0%;
+  }
+
+  #user-flow-image{
+      width: 30%;
+      margin-right: 15%;
+  }
+
+  #story-caption{
+    margin-left: 0%;
+    padding-right: 8%;
+    /*margin-right: 5%;*/
+  }
+
+  .user-story{
+    margin-left: 45%;
+  }
+
+  #wireframes{
+    width: 100%;
+    margin-left: 5%;
+  }
+
+  #mockups{
+    width: 80%;
+    margin-left: 12%;
+    margin-top: 15%;
+
+  }
+  #indent20percent{
+    margin-left: 0%;
+  }
+
+  #copyright{
+    width: 100%;
+  }
+
+  #persona-image{
+    margin-left: 5%;
+  }
+
+  #travelix-persona-image{
+    margin-left: 20%;
+  }
+
+  #magnegMockups{
+    width: 90%;
+    margin-top: 15%;
+    margin-left: -5%;
+
+  }
+
+  .preference-test{
+    text-align: center;
+    margin-bottom: 10%;
   }

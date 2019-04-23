@@ -30,15 +30,15 @@ class HomePage extends Component {
         </Col>
         </Row>
         <Row>
-          <div className="main-subText" id="section-header" style={{marginLeft: "10%"}}> Recent Projects </div>
-          <Col xs="12" m="6" lg="6" xl="6">
+          <div className="main-subText" id="section-header" style={{marginLeft: "13%"}}> Recent Projects </div>
+          <Col xs="6" m="6" lg="6" xl="6">
           <CaseStudySection projectName="Travelix"
             projectDescription="A new mobile application that empowers you to discover new places and dream up your next travel destination."
             caseStudyLink="/travelix"
             image={travelixHome}
           />
           </Col>
-          <Col xs="12" m="6" lg="6" xl="6" style={{right: "150px"}}>
+          <Col xs="6" m="6" lg="6" xl="6" className="closer">
           <CaseStudySection projectName="Magneg"
             projectDescription="A new cloud storage mobile application that allows users to create, store and collaborate all in one platform."
             caseStudyLink="/magneg"

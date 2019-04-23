@@ -34,7 +34,7 @@ export const BannerLinkImage = ({backgroundColor, headerText, subText, role, but
   return (
     <div className={backgroundColor}>
         <Row>
-          <Col xs="12" m="6" lg="6" xl="6">
+          <Col xs="12" m="6" lg="6" xl="6" className="banner-description">
             <div className="indented-section" id="header-section">
                 <div>
                   <div className="main-headerText">{headerText}</div>

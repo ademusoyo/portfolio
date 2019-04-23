@@ -68,28 +68,29 @@ class TravelixPage extends Component {
                   <div className="main-subText" id="section-header"> Research </div>
                   </Slide>
                   <Fade>
-                    <Col xs="12" md="9" lg="9" xl="9">
+                    <Col xs="12" sm="9" md="9" lg="9" xl="9">
                       <Content
                         title="User Research"
                         content="Based on our survey participants, we were able to identify key features as well as exisiting pain points that will drive the tasks that were needed in order to build Travelix."
+                        id="fullRow"
                       />
                     </Col>
                     </Fade>
                     <Flip top>
                     <Row className="group">
-                        <Col xs="4" sm="4" md="4" lg="4" xl="4" style={{textAlign: "center"}}>
+                        <Col xs="12" sm="12" md="4" lg="4" xl="4" style={{textAlign: "center"}}>
                         <PieChartMetric
                             pieChart={eightyOnePercent}
                             percentage="81%"
                             text="of participants stated that they primarily travel for personal reasons." />
                         </Col>
-                        <Col xs="4" sm="4" md="4" lg="4" xl="4" style={{textAlign: "center"}}>
+                        <Col xs="12" sm="12" md="4" lg="4" xl="4" style={{textAlign: "center"}}>
                         <PieChartMetric
                             pieChart={fifteenPercent}
                             percentage="15%"
                             text="of participants travel primarily for business." />
                         </Col>
-                        <Col xs="4" sm="4" md="4" lg="4" xl="4" style={{textAlign: "center"}}>
+                        <Col xs="12" sm="12" md="4" lg="4" xl="4" style={{textAlign: "center"}}>
                         <PieChartMetric
                             pieChart={tenPercent}
                             percentage="10%"
@@ -123,10 +124,11 @@ class TravelixPage extends Component {
                     </Row>
                   <Row>
                   <Fade>
-                  <Col xs="12" md="9" lg="9" xl="9">
+                  <Col xs="12"  sm="9" md="9" lg="9" xl="9">
                   <Content
                     title="Competitive Analysis"
                     content="There are many resources that consumers are currently using to organize and plan their travel. By doing competitive analysis, we determined that Travelix needs to allow for different types of media to be available to view within the platform and allow users to organize their ideas in travel buckets for future destinations. Users should be able to write their own content to provide their own feedback authentically."
+                    id="fullRow"
                   />
                   </Col>
                   </Fade>
@@ -134,46 +136,46 @@ class TravelixPage extends Component {
                     <Row className="group">
                       <Col xs="6" md="4" lg="4" xl="4">
                         <img src={airbnb} id="competitive-image" />
-                        <div id="caption">Strengths</div>
+                        <div className="caption">Strengths</div>
                         <div className="content-body" id="subCaption">Allows you to look for different types of accommodations for varying groups of people</div>
                         <div className="content-body" id="subCaption">Can create an itinerary</div>
-                        <div id="caption">Weaknesses</div>
+                        <div className="caption" id="adjustLeft2">Weaknesses</div>
                         <div className="content-body" id="subCaption">Lack of information about safety </div>
                         <div className="content-body" id="subCaption">Doesn’t allow you to compare with other sites</div>
-                        <div id="caption">Opportunities</div>
+                        <div className="caption" id="adjustLeft">Opportunities</div>
                         <div className="content-body" id="subCaption">Varying sources for accommodations and excursions</div>
                         <div className="content-body" id="subCaption">Creating an itinerary</div>
-                        <div id="caption">Threats</div>
+                        <div className="caption">Threats</div>
                         <div className="content-body" id="subCaption">Gives a limited view on the accommodation</div>
                         <div className="content-body" id="subCaption">Not reliable in terms of payments</div>
                       </Col>
                       <Col xs="6" md="4" lg="4" xl="4">
                         <img src={instagram} id="competitive-image" />
-                        <div id="caption">Strengths</div>
+                        <div className="caption" id="adjustLeft2">Strengths</div>
                         <div className="content-body" id="subCaption">You can build your own brand/platform</div>
                         <div className="content-body" id="subCaption">Visually Driven</div>
-                        <div id="caption">Weaknesses</div>
+                        <div className="caption" id="adjustLeft2">Weaknesses</div>
                         <div className="content-body" id="subCaption">Cannot share your organized content with others</div>
                         <div className="content-body" id="subCaption">Can be overwhelming to organize and consume</div>
-                        <div id="caption">Opportunities</div>
+                        <div className="caption" id="adjustLeft">Opportunities</div>
                         <div className="content-body" id="subCaption">Create “feeds” based on different locations</div>
                         <div className="content-body" id="subCaption">Allow different media types to appear on the feed</div>
-                        <div id="caption">Threats</div>
+                        <div className="caption" id="">Threats</div>
                         <div className="content-body" id="subCaption">Algorithm doesn't level out the playing field for everyone to see content.</div>
                         <div className="content-body" id="subCaption">Limited understanding of the images being shown.</div>
                       </Col>
                       <Col xs="6" md="4" lg="4" xl="4">
                         <img src={youtube} id="competitive-image" />
-                        <div id="caption">Strengths</div>
+                        <div className="caption" id="adjustLeft2">Strengths</div>
                         <div className="content-body" id="subCaption">Allows you to view video content</div>
                         <div className="content-body" id="subCaption">Allows you to see more of an area that you are trying to visit</div>
-                        <div id="caption">Weaknesses</div>
+                        <div className="caption" id="adjustLeft2">Weaknesses</div>
                         <div className="content-body" id="subCaption">You can only show videos</div>
                         <div className="content-body" id="subCaption">Has trended to more of a popularity contest</div>
-                        <div id="caption">Opportunities</div>
+                        <div className="caption" id="adjustLeft">Opportunities</div>
                         <div className="content-body" id="subCaption">Showing video content</div>
                         <div className="content-body" id="subCaption">Creating lists for specific types of videos</div>
-                        <div id="caption">Threats</div>
+                        <div className="caption">Threats</div>
                         <div className="content-body" id="subCaption">Only shows video content</div>
                         <div className="content-body" id="subCaption">Algorithm issues</div>
                       </Col>
@@ -186,13 +188,14 @@ class TravelixPage extends Component {
                     <Content
                       title="User Personas"
                       content="With the information gained from my competitive analysis and my user surveys I was ready to create my user personas, hypothetical archetypes of real users as defined by their goals and frustrations. These personas helped drive the Travelix Solution."
+                      id="fullRow"
                     />
                     </Col>
                     </Fade>
                     <Row className="group">
                       <Fade left>
-                      <Col xs="12" md="6" lg="6" xl="6">
-                        <img src={nimi} id="persona-image" />
+                      <Col xs="12" sm="6" md="6" lg="6" xl="6" className="user-persona">
+                        <img src={nimi} id="travelix-persona-image" />
                         <div className="content-body" id="bio-text">Nimi | 23 Years Old | Houston, Tx</div>
                         <div className="quote">“Looking for my next adventure”</div>
                         <div id="user-persona-header">Goals</div>
@@ -208,8 +211,8 @@ class TravelixPage extends Component {
                       </Col>
                       </Fade>
                       <Fade right>
-                      <Col xs="12" md="6" lg="6" xl="6">
-                        <img src={derek} id="persona-image" />
+                      <Col xs="12" sm="6" md="6" lg="6" xl="6" className="user-persona">
+                        <img src={derek} id="travelix-persona-image" />
                         <div className="content-body" id="bio-text">Derek | 28 Years Old | Digital Nomad </div>
                         <div className="quote">“Travel and work is a lifestyle”</div>
                         <div id="user-persona-header">Goals</div>
@@ -238,38 +241,39 @@ class TravelixPage extends Component {
                       content="While keeping our personas in mind, we focused on outlining the features that this new application would need to have by creating user stories. I focused on the high priority items in order to create the Minimum Viable Product (MVP) "
                       buttonText="View User Flows"
                       buttonLink="https://drive.google.com/file/d/1avgc2_P040DwyvZjAKakpE9GhI-4cJ8h/view?usp=sharing"
+                      id="fullRow"
                         />
                   </Col>
                   </Fade>
                   </Row>
 
-                  <Row className="group">
+                  <Row className="group" id="userStories">
                   <Fade>
-                    <Col xs="6" md="2" lg="2" xl="2">
+                    <Col xs="12" sm="2" md="2" lg="2" xl="2" className="user-story">
                       <img src={persona} id="user-flow-image"/>
                       <div className="content-body" id="story-caption">"I want to create an account "</div>
                     </Col>
-                    <Col xs="6" md="2" lg="2" xl="2">
+                    <Col xs="12" sm="2" md="2" lg="2" xl="2" className="user-story">
                       <img src={persona} id="user-flow-image"/>
                       <div className="content-body" id="story-caption">"I want to look at what content exists in the platform"</div>
                     </Col>
-                    <Col xs="6" md="2" lg="2" xl="2">
+                    <Col xs="12" sm="" md="2" lg="2" xl="2" className="user-story">
                       <img src={persona} id="user-flow-image"/>
                       <div className="content-body" id="story-caption">“I want to search for a location</div>
                     </Col>
                     </Fade>
                   </Row>
                   <Fade>
-                  <Row className="group" style={{paddingBottom: "1.5em"}}>
-                    <Col xs="6" md="2" lg="2" xl="2">
+                  <Row className="group"  id="userStories" style={{paddingBottom: "1.5em"}}>
+                    <Col xs="6" md="2" lg="2" xl="2" className="user-story">
                       <img src={persona} id="user-flow-image"/>
                       <div className="content-body" id="story-caption">"I want to log into my account "</div>
                     </Col>
-                    <Col xs="6" md="2" lg="2" xl="2">
+                    <Col xs="6" md="2" lg="2" xl="2" className="user-story">
                       <img src={persona} id="user-flow-image"/>
                       <div className="content-body" id="story-caption">"I want to organize my travel ideas"</div>
                     </Col>
-                    <Col xs="6" md="2" lg="2" xl="2">
+                    <Col xs="6" md="2" lg="2" xl="2" className="user-story">
                       <img src={persona} id="user-flow-image"/>
                       <div className="content-body" id="story-caption">“I want to write my own content”</div>
                     </Col>
@@ -284,6 +288,7 @@ class TravelixPage extends Component {
                       content="Once we have an understanding of how we want this mobile application to flow as well as an agreed upon content strategy, we then proceeded to begin focusing more on design. From some small sketching we transitioned into build low-fi digital wireframes."
                       buttonText="View More Wireframes"
                       buttonLinK="https://drive.google.com/open?id=1oJO2RFRxL9fNh5gInwsF9oCGCYieY-rL"
+                      id="fullRow"
                     />
                     </Col>
                       </Fade>
@@ -306,6 +311,7 @@ class TravelixPage extends Component {
                             title="Logo & Naming"
                             content="Travelix aims to allow you to discover new places and build your dream travel list within the platform. Within the platform, you’re building a list for your next travel destination and sharing your own travel experiences with other people. "
                             image={travelixSketches}
+                            id="fullRow"
                           />
                         </Col>
                         </Fade>
@@ -315,6 +321,7 @@ class TravelixPage extends Component {
                         <Content
                           title="Branding"
                           content=" We wanted Travelix to exude some sense of vibrancy while also being very minimalistic. The vibrant red and orange colors give off the vibrant sense of adventure while the brown/tannish colors give that base of calmness and reliability."
+                          id="fullRow"
                         />
                         </Fade>
                         <Fade>
@@ -332,7 +339,8 @@ class TravelixPage extends Component {
                   <Fade>
                   <Col xs="12" md="9" lg="9" xl="9" style={{marginLeft: "1em"}}>
                     <Content title="Usability Testing"
-                      content="We first began testing with the wireframes. By testing these wireframes first, we are able to see if we are making the right design decisions before adding more visuals. Based on these results, we knew that our intended prototype worked as expected with few issues. From there we began testing the High-Definition Mockups and learned that while this prototype was clear, there were ways that we could 1) improve aceessibility and 2) allow users to succeed in completing different tasks in multiple ways." />
+                      content="We first began testing with the wireframes. By testing these wireframes first, we are able to see if we are making the right design decisions before adding more visuals. Based on these results, we knew that our intended prototype worked as expected with few issues. From there we began testing the High-Definition Mockups and learned that while this prototype was clear, there were ways that we could 1) improve aceessibility and 2) allow users to succeed in completing different tasks in multiple ways."
+                      id="fullRow" />
                   </Col>
                   </Fade>
                 </Row>
@@ -347,9 +355,10 @@ class TravelixPage extends Component {
                   content="Taking in the concluding results of the preference and usability tests and the personas from the very beginning, it's time to finalize the designs. We went through several iterations to get to the finalized solution that is clean, simple and solves our original problem. The prototype was created using Figma."
                   buttonText="View Prototype"
                   buttonLink="https://www.figma.com/proto/f2n348DjtiG7jTwazMLorylD/Travel-App?node-id=53%3A1&viewport=322%2C202%2C0.371819&scaling=scale-down"
+                  id="fullRow"
                     />
               </Col>
-              <Row style={{marginLeft: "20%"}}>
+              <Row id="indent20percent">
               <img src={mockups} id="mockups" />
               </Row>
               </Fade>
@@ -357,21 +366,24 @@ class TravelixPage extends Component {
                 <Slide top cascade>
                 <div className="main-subText" id="section-header">Conclusion</div>
                 </Slide>
-                <Col xs="12" md="9" lg="9" xl="9">
+                <Col xs="12" sm="9" md="9" lg="9" xl="9">
                 <Fade>
                 <Content
                   title="Refections"
                   content="This project was definitely very interesting because it exposed some of the different ways to consider buildind and prototyping an application."
+                  id="fullRow"
                 />
                 </Fade>
                 <Fade>
                   <Content title=""
                     content="Looking back, I realized my own biases of building an application without considering all accessibility best practices in my first iteration."
+                    id="fullRow"
                       />
                 </Fade>
                 <Fade>
                     <Content title=""
                       content="When considering actual development of this application, I would challenge the high priority items to see what could be dropped down to medium priority items in order to get the product out sooner rather than later. "
+                      id="fullRow"
                         />
                 </Fade>
                 </Col>

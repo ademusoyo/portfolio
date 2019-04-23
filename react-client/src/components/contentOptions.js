@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import {Card, Button, CardBody, Col, Row, CardTitle} from 'reactstrap';
 
 
-export const Content = ({title, content}) =>{
+export const Content = ({title, content, id}) =>{
   return (
-    <div>
+    <div className="content" id={id}>
           <div className="content-header">{title} </div>
           <div className="content-body">
               {content}
@@ -13,10 +13,10 @@ export const Content = ({title, content}) =>{
   );
 };
 
-export const ContentButton = ({title, content, buttonLink, buttonText}) =>{
+export const ContentButton = ({title, content, buttonLink, buttonText, id}) =>{
 
   return (
-    <div>
+    <div className="content" id={id}>
           <div className="content-header">{title} </div>
           <div className="content-body">
               {content}
@@ -31,9 +31,9 @@ export const ContentButton = ({title, content, buttonLink, buttonText}) =>{
 
 };
 
-export const ContentButtonLinkImage = ({title, content, image, buttonLink, buttonText}) =>{
+export const ContentButtonLinkImage = ({title, content, image, buttonLink, buttonText, id}) =>{
   return (
-    <div>
+    <div className="content" id={id}>
           <div className="content-header">{title} </div>
           <div className="content-body">
               {content}
@@ -50,9 +50,9 @@ export const ContentButtonLinkImage = ({title, content, image, buttonLink, butto
   );
 };
 
-export const ContentImage = ({title, content, image}) =>{
+export const ContentImage = ({title, content, image, id}) =>{
   return (
-    <div>
+  <div className="content" id={id}>
           <div className="content-header">{title} </div>
           <div className="content-body">
               {content}
