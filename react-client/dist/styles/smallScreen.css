@@ -20,7 +20,7 @@
 
   #my-hero-image{
     width: 75%;
-    margin-left: 13%;
+    margin-left: 25%;
   }
 
   #case-study-image{
@@ -49,16 +49,28 @@
 
   .main-headerText{
     text-align: center;
-    right: 5em;
+    margin-left: 10%;
+    /*right: 5em;*/
   }
 
   .main-subText{
     text-align: center;
     font-size: 16px;
     width: 75%;
-    margin-left: 13%;
+    margin-left: 18%;
   }
 
+  #homepage-header-text{
+    text-align: center;
+    margin-left: 20%;
+    font-size: 40px;
+  }
+
+  #homepage-header-sub-text{
+    text-align: center;
+    width: 70%;
+    margin-left: 5em;
+  }
   .project{
     margin-right: 30%;
   }
@@ -148,7 +160,6 @@
   }
 
   #pie-chart{
-    margin-left: 5%;
   }
 
 
@@ -286,6 +297,12 @@
   #wireframes{
     width: 100%;
     margin-left: 5%;
+  }
+
+  #aboutMe{
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 10%;
   }
 
   #mockups{

@@ -18,8 +18,8 @@ import courtney from "../images/magneg/courtney.png";
 import persona from "../images/persona.png";
 import userFlow from "../images/magneg/create-account.png";
 import userFlow2 from "../images/magneg/share-content.png";
-import sketches from "../images/magneg/sketches.png";
-import wireframes from "../images/magneg/sketches-wireframes.png";
+import sketches from "../images/magneg/sketches.jpg";
+import wireframes from "../images/magneg/wireframes.png";
 import styleGuide from "../images/magneg/style-guide.png";
 import totalPercent from "../images/magneg/create-account-100.png";
 import seventyFivePercent from "../images/magneg/uploading-content.png";
@@ -44,7 +44,8 @@ class MagnegPage extends Component {
           backgroundColor=""
           headerText="Magneg"
           subText="A new cloud storage mobile application that allows users to create, store and collaborate all in one platform."
-          role="Role: User Research, UX Design, Content Strategy, Prototyping, Brand Identity"
+          role="User Research, UX Design, Content Strategy, Prototyping, Brand Identity"
+          background="This project was my first project during my Bloc Apprenticeship program. We were tasked with creating a cloud storage application."
           buttonText="View Prototype"
           buttonLink="https://www.figma.com/proto/MLLZbAK70j2aG3NCv8Lad28h/Finishing-Touches?node-id=140%3A2&viewport=2036%2C1388%2C0.5&scaling=scale-down"
           image={magnegIphone}
@@ -89,7 +90,7 @@ class MagnegPage extends Component {
                       />
                     </Col>
                     </Fade>
-                    <Flip top>
+                    <Fade>
                     <Row className="group">
                         <Col xs="12" sm="12" md="4" lg="4" xl="4" style={{textAlign: "center"}}>
                         <PieChartMetric
@@ -110,7 +111,7 @@ class MagnegPage extends Component {
                             text="of participants use cloud storage applications for work." />
                         </Col>
                       </Row>
-                      </Flip>
+                      </Fade>
                       <Row className="group">
                           <Fade>
                           <div id="section-sub-header">Must Have Features</div>
@@ -143,7 +144,7 @@ class MagnegPage extends Component {
                               </div>
                             </Col>
                             <Col xs="6" md="4" lg="4" xl="4">
-                              <div className="tile" style={{paddingLeft: "15%", paddingRight: "15%", paddingTop: "5%"}}>
+                              <div className="tile" id="special-tile">
                                 Offline Access
                               </div>
                             </Col>
@@ -162,7 +163,7 @@ class MagnegPage extends Component {
                   </Fade>
                   <Fade>
                     <Row className="group">
-                      <Col xs="6" md="4" lg="4" xl="4">
+                      <Col xs="6" md="4" lg="4" xl="4" className="swot">
                         <img src={googleDrive} id="competitive-image" />
                         <div className="caption">Strengths</div>
                         <div className="content-body" id="subCaption">Generous amounts of free storage</div>
@@ -177,7 +178,7 @@ class MagnegPage extends Component {
                         <div className="content-body" id="subCaption">Only works well for those who use google products for storage</div>
                         <div className="content-body" id="subCaption">For ease of collaboration, everyone would need a gmail account</div>
                       </Col>
-                      <Col xs="6" md="4" lg="4" xl="4">
+                      <Col xs="6" md="4" lg="4" xl="4" className="swot">
                         <img src={pinterest} id="competitive-image" />
                         <div className="caption">Strengths</div>
                         <div className="content-body" id="subCaption">Allows you to collect things that you find on the internet</div>
@@ -192,7 +193,7 @@ class MagnegPage extends Component {
                         <div className="content-body" id="subCaption">Only geared for a specific type of audience</div>
                         <div className="content-body" id="subCaption">Outside of images types, nothing else can be shared</div>
                       </Col>
-                      <Col xs="6" md="4" lg="4" xl="4">
+                      <Col xs="6" md="4" lg="4" xl="4" className="swot">
                         <img src={icloud} id="competitive-image" />
                         <div className="caption">Strengths</div>
                         <div className="content-body" id="subCaption">Automatic backups</div>
@@ -221,8 +222,8 @@ class MagnegPage extends Component {
                     </Col>
                     </Fade>
                     <Row className="group">
-                      <Fade left>
-                      <Col xs="12" md="6" lg="6" xl="6" className="user-persona">
+                      <Fade>
+                      <Col xs="12" sm="6" md="6" lg="6" xl="6" className="user-persona">
                         <img src={antonia} id="persona-image" />
                         <div className="content-body" id="bio-text">Antonia | Consultant | 24 Years Old</div>
                         <div className="quote">“I’m trying to help my business grow on the go”</div>
@@ -238,8 +239,8 @@ class MagnegPage extends Component {
                         </ul>
                       </Col>
                       </Fade>
-                      <Fade right>
-                      <Col xs="12" md="6" lg="6" xl="6" className="user-persona">
+                      <Fade>
+                      <Col xs="12" sm="6" md="6" lg="6" xl="6" className="user-persona">
                         <img src={courtney} id="persona-image" />
                         <div className="content-body" id="bio-text">Courtney | Graphic Designer | 30 Years Old</div>
                         <div className="quote">“Easy and seamless transperancy is really important to me.”</div>
@@ -265,10 +266,8 @@ class MagnegPage extends Component {
                   <Row>
                   <Fade>
                   <Col xs="12"  sm="9" md="9" lg="9" xl="9" style={{marginLeft: "1em"}}>
-                    <ContentButton title="User Stories & User Flows "
+                    <Content title="User Stories"
                       content="While keeping our personas in mind, we focused on outlining the features that this new application would need to have by creating user stories. I focused on the high and medium priority items in order to create the Minimum Viable Product (MVP) "
-                      buttonText="View More User Flows"
-                      buttonLink="https://drive.google.com/open?id=1xkJhwpEPv4ihjJUMSHCVpeByc7o07cP1"
                       id="fullRow"
                         />
                   </Col>
@@ -277,15 +276,15 @@ class MagnegPage extends Component {
 
                   <Row className="group" id="userStories">
                   <Fade>
-                    <Col xs="6" md="2" lg="2" xl="2" className="user-story">
+                    <Col xs="6" sm="3" md="2" lg="2" xl="2" className="user-story">
                       <img src={persona} id="user-flow-image"/>
                       <div className="content-body" id="story-caption">"I want to access my account"</div>
                     </Col>
-                    <Col xs="6" md="2" lg="2" xl="2" className="user-story">
+                    <Col xs="6" sm="3" md="2" lg="2" xl="2" className="user-story">
                       <img src={persona} id="user-flow-image"/>
                       <div className="content-body" id="story-caption">"I want to create content"</div>
                     </Col>
-                    <Col xs="6" md="2" lg="2" xl="2" className="user-story">
+                    <Col xs="6" sm="3" md="2" lg="2" xl="2" className="user-story">
                       <img src={persona} id="user-flow-image"/>
                       <div className="content-body" id="story-caption">“I want to share content with others.”</div>
                     </Col>
@@ -293,45 +292,36 @@ class MagnegPage extends Component {
                   </Row>
                   <Fade>
                   <Row className="group" style={{paddingBottom: "1.5em"}} id="userStories">
-                    <Col xs="6" md="2" lg="2" xl="2" className="user-story">
+                    <Col xs="6" sm="3" md="2" lg="2" xl="2" className="user-story">
                       <img src={persona} id="user-flow-image"/>
                       <div className="content-body" id="story-caption">"I want to upload content."</div>
                     </Col>
-                    <Col xs="6" md="2" lg="2" xl="2" className="user-story">
+                    <Col xs="6" sm="3" md="2" lg="2" xl="2" className="user-story">
                       <img src={persona} id="user-flow-image"/>
                       <div className="content-body" id="story-caption">"I want to organize content"</div>
                     </Col>
-                    <Col xs="6" md="2" lg="2" xl="2" className="user-story">
+                    <Col xs="6" sm="3" md="2" lg="2" xl="2" className="user-story">
                       <img src={persona} id="user-flow-image"/>
                       <div className="content-body" id="story-caption">“I want to collaborate in real-time.”</div>
                     </Col>
                   </Row>
                   </Fade>
-                  <Fade>
-                    <Row style={{marginLeft: "15%", width: "80%"}}>
-                    <Col xs="12" md="6" lg="6" xl="6">
-                      <img src={userFlow} id="user-flow-map" />
-                    </Col>
-                    <Col xs="12" md="6" lg="6" xl="6">
-                      <img src={userFlow2} id="user-flow-map" />
-                    </Col>
-                    </Row>
-                    </Fade>
                   </Row>
                   <Row>
                     <Fade>
                     <Col xs="12"  sm="9" md="9" lg="9" xl="9">
-                    <ContentButton
+                    <Content
                       title="Sketches & Wireframes"
                       content="Once we have an understanding of how we want this mobile application to flow, we then proceeded to begin focusing more on design. I first began sketching by hand to formulate a general idea and then transitioned into build low-fi digital wireframes. Usability testing was conducted in person testing users ability to upload a file, organize a file, and create an account with a clickable low-fi prototype. Overall the results were positive stating that the only roadblock was to make the buttons stand out and to make the organize a file option more clear."
-                      buttonText="View More Wireframes"
-                      buttonLinK="https://drive.google.com/open?id=1k8k4w049hJTh-LYeAXYi6DO1Zhiqb-qf"
                       id="fullRow"
                     />
                     </Col>
                       </Fade>
                       <Fade>
                     <Row style={{marginLeft: "10%"}}>
+                    <Col xs="12" sm="9" md="9" lg="9" xl="9">
+                    <img src={sketches} id="wireframes"/>
+                    </Col>
                       <Col xs="12" sm="9" md="9" lg="9" xl="9">
                       <img src={wireframes} id="wireframes"/>
                       </Col>
@@ -483,10 +473,11 @@ class MagnegPage extends Component {
                   id="fullRow"
                     />
               </Col>
+              </Fade>
+
               <Row style={{marginLeft: "20%"}}>
               <img src={mockups} id="magnegMockups" />
               </Row>
-              </Fade>
               <Row>
                 <Slide top cascade>
                 <div className="main-subText" id="section-header">Conclusion</div>

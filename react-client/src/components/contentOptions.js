@@ -50,7 +50,7 @@ export const ContentButtonLinkImage = ({title, content, image, buttonLink, butto
   );
 };
 
-export const ContentImage = ({title, content, image, id}) =>{
+export const ContentImage = ({title, content, image, id, imageId}) =>{
   return (
   <div className="content" id={id}>
           <div className="content-header">{title} </div>
@@ -58,7 +58,7 @@ export const ContentImage = ({title, content, image, id}) =>{
               {content}
           </div>
           <div>
-            <img src={image} className="content-image" />
+            <img src={image} id={imageId} className="content-image" />
           </div>
     </div>
   );

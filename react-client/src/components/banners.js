@@ -30,7 +30,7 @@ export const BannerLink = ({backgroundColor, headerText, subText, buttonLink, bu
   )
 };
 
-export const BannerLinkImage = ({backgroundColor, headerText, subText, role, buttonText, newWindow, buttonLink, image, imageId}) => {
+export const BannerLinkImage = ({backgroundColor, headerText, subText, role, buttonText, newWindow, buttonLink, image, imageId, background}) => {
   return (
     <div className={backgroundColor}>
         <Row>
@@ -39,7 +39,8 @@ export const BannerLinkImage = ({backgroundColor, headerText, subText, role, but
                 <div>
                   <div className="main-headerText">{headerText}</div>
                   <div className="main-subText">{subText}</div>
-                  <div className="main-subText" style={{marginTop: "1.5em"}}>{role}</div>
+                  <div className="main-subText" style={{marginTop: "1.5em"}}><span className="emphasis">Role: </span> {role}</div>
+                  <div className="main-subText" style={{marginTop: "1.5em", fontStyle: "italic", fontSize: "16px"}}>{background}</div>
                   {
                     newWindow &&
                     <a href={buttonLink} target="_blank">

@@ -16,21 +16,21 @@ class HomePage extends Component {
       <div>
         <Grid className="main-content">
         <Row>
-        <Col xs="12" m="6" lg="6" xl="6">
-          <div className="indented-section" id="header-section">
-                <div className="main-headerText">Hi. I'm <span className="emphasis"> Ademusoyo. </span></div>
-                <div className="main-subText">I'm a <span className="emphasis">software engineer</span> and <span className="emphasis">designer</span> based in NYC.
-                    I'm passionate about creating <span className="emphasis">positively impactful</span> products and experiences.</div>
+        <Col xs="12" m="12" lg="12" xl="12">
+        <Col xs="12" m="12" lg="12" xl="12">
+          <div className="indented-section" id="header-section" style={{textAlign: "center"}}>
+              <img src={me} className="banner-link-image" id="my-hero-image" />
           </div>
         </Col>
-        <Col xs="12" m="6" lg="6" xl="6">
           <div className="indented-section" id="header-section">
-              <img src={me} className="banner-link-image" id="my-hero-image" />
+                <div className="main-headerText" id="homepage-header-text">Hi. I'm <span className="emphasis"> Ademusoyo. </span></div>
+                <div className="main-subText" id="homepage-header-sub-text">I'm a <span className="emphasis">software engineer</span> and <span className="emphasis">designer</span> based in NYC.
+                    <br /> I'm passionate about designing and developing <span className="emphasis">socially conscious</span> solutions.</div>
           </div>
         </Col>
         </Row>
         <Row>
-          <div className="main-subText" id="section-header" style={{marginLeft: "13%"}}> Recent Projects </div>
+          <div className="main-subText" id="recent-projects" style={{marginLeft: "16%"}}> Recent Projects </div>
           <Col xs="6" m="6" lg="6" xl="6">
           <CaseStudySection projectName="Travelix"
             projectDescription="A new mobile application that empowers you to discover new places and dream up your next travel destination."
