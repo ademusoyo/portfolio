@@ -18,7 +18,7 @@ import courtney from "../images/magneg/courtney.png";
 import persona from "../images/persona.png";
 import userFlow from "../images/magneg/create-account.png";
 import userFlow2 from "../images/magneg/share-content.png";
-import sketches from "../images/magneg/sketches.jpg";
+import sketches from "../images/magneg/sketches.JPG";
 import wireframes from "../images/magneg/wireframes.png";
 import styleGuide from "../images/magneg/style-guide.png";
 import totalPercent from "../images/magneg/create-account-100.png";
