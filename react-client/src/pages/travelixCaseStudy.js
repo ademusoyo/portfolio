@@ -322,7 +322,7 @@ class TravelixPage extends Component {
                         <Fade>
                         <Content
                           title="Branding"
-                          content="We wanted Travelix to exude some sense of vibrancy while also being very minimalistic. The vibrant red and orange colors give off the vibrant sense of adventure while the brown/tannish colors give that base of calmness and reliability."
+                          content="We wanted Travelix to exude some sense of vibrancy while also being very minimalistic. The red and orange colors give off the sense of adventure while the brown/tannish colors give that base of calmness and reliability."
                           id="fullRow"
                         />
                         </Fade>
