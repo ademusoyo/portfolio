@@ -165,46 +165,46 @@ class MagnegPage extends Component {
                     <Row className="group">
                       <Col xs="6" md="4" lg="4" xl="4" className="swot">
                         <img src={googleDrive} id="competitive-image" />
-                        <div className="caption">Strengths</div>
+                        <div className="caption" id="subCaption">Strengths</div>
                         <div className="content-body" id="subCaption">Generous amounts of free storage</div>
                         <div className="content-body" id="subCaption">Supports real time collaboration</div>
-                        <div className="caption">Weaknesses</div>
+                        <div className="caption" id="subCaption">Weaknesses</div>
                         <div className="content-body" id="subCaption">Multiple apps are needed for creating content</div>
                         <div className="content-body" id="subCaption">Works best with other google products</div>
-                        <div className="caption">Opportunities</div>
+                        <div className="caption" id="subCaption">Opportunities</div>
                         <div className="content-body" id="subCaption">Making it OS agnostic </div>
                         <div className="content-body" id="subCaption">Easy to share with others</div>
-                        <div className="caption">Threats</div>
+                        <div className="caption" id="subCaption">Threats</div>
                         <div className="content-body" id="subCaption">Only works well for those who use google products for storage</div>
                         <div className="content-body" id="subCaption">For ease of collaboration, everyone would need a gmail account</div>
                       </Col>
                       <Col xs="6" md="4" lg="4" xl="4" className="swot">
                         <img src={pinterest} id="competitive-image" />
-                        <div className="caption">Strengths</div>
+                        <div className="caption" id="subCaption">Strengths</div>
                         <div className="content-body" id="subCaption">Allows you to collect things that you find on the internet</div>
                         <div className="content-body" id="subCaption">Visually Driven</div>
-                        <div className="caption">Weaknesses</div>
+                        <div className="caption" id="subCaption">Weaknesses</div>
                         <div className="content-body" id="subCaption">You can only store images</div>
                         <div className="content-body" id="subCaption">Limited collaboration</div>
-                        <div className="caption">Opportunities</div>
+                        <div className="caption" id="subCaption">Opportunities</div>
                         <div className="content-body" id="subCaption">Social Networking Site</div>
                         <div className="content-body" id="subCaption">Share Multiple File Types</div>
-                        <div className="caption">Threats</div>
+                        <div className="caption" id="subCaption">Threats</div>
                         <div className="content-body" id="subCaption">Only geared for a specific type of audience</div>
                         <div className="content-body" id="subCaption">Outside of images types, nothing else can be shared</div>
                       </Col>
                       <Col xs="6" md="4" lg="4" xl="4" className="swot">
                         <img src={icloud} id="competitive-image" />
-                        <div className="caption">Strengths</div>
+                        <div className="caption" id="subCaption">Strengths</div>
                         <div className="content-body" id="subCaption">Automatic backups</div>
                         <div className="content-body" id="subCaption">Integrates across all apple devices that you own </div>
-                        <div className="caption">Weaknesses</div>
+                        <div className="caption" id="subCaption">Weaknesses</div>
                         <div className="content-body" id="subCaption">Limited Storage</div>
                         <div className="content-body" id="subCaption">Not Collaborative</div>
-                        <div className="caption" >Opportunities</div>
+                        <div className="caption" id="subCaption">Opportunities</div>
                         <div className="content-body" id="subCaption">More space available for free</div>
                         <div className="content-body" id="subCaption">Better understanding of what is being stored. </div>
-                        <div className="caption">Threats</div>
+                        <div className="caption" id="subCaption">Threats</div>
                         <div className="content-body" id="subCaption">Information that gets stored that a user can’t easily retrieve</div>
                         <div className="content-body" id="subCaption">Can only view not edit.</div>
                       </Col>
@@ -321,9 +321,11 @@ class MagnegPage extends Component {
                     <Row style={{marginLeft: "10%"}}>
                     <Col xs="12" sm="9" md="9" lg="9" xl="9">
                     <img src={sketches} id="wireframes"/>
+                    <div className="content-body" id="subCaption" style={{marginTop: ".5em"}}>Initial Sketches</div>
                     </Col>
                       <Col xs="12" sm="9" md="9" lg="9" xl="9">
                       <img src={wireframes} id="wireframes"/>
+                          <div className="content-body" id="subCaption" style={{marginTop: ".5em"}}>Wireframes</div>
                       </Col>
                     </Row>
                     </Fade>
@@ -339,6 +341,7 @@ class MagnegPage extends Component {
                             title="Logo & Naming"
                             content="Magneg aims to portray that is fun, reliable and collaborative. It is the one-stop shop for the people both create and collaborate. We wanted to use an icon that represents attraction because the aim is for people to be drawn to use Magneg instead of other cloud-sharing services. When we think of attraction, we think of magnets. We chose to use something that was a play on the word magnet, and thus Magneg was born."
                             image={magnegSketches}
+                            caption="Logo iterations"
                             id="fullRow"
                           />
                         </Col>
@@ -371,7 +374,7 @@ class MagnegPage extends Component {
                     content="We first began testing with the wireframes. By testing these wireframes first, we are able to see if we are making the right design decisions before adding more visuals. Based on these results, it was evident that the we need to make the action upload account more clear." />
                 </Col>
                 </Fade>
-                  <Flip top>
+                  <Fade>
                   <Row className="group">
                     <Col xs="12" md="4" lg="4" xl="4" style={{textAlign: "center"}}>
                     <PieChartMetric
@@ -392,7 +395,7 @@ class MagnegPage extends Component {
                         text="of participants were able to upload content." />
                     </Col>
                   </Row>
-                  </Flip>
+                  </Fade>
                   </Row>
                   <Row>
                     <Fade>
@@ -478,6 +481,8 @@ class MagnegPage extends Component {
               <Row style={{marginLeft: "20%"}}>
               <img src={mockups} id="magnegMockups" />
               </Row>
+                <div className="content-body" id="subCaption" style={{marginTop: ".5em"}}>Final Mockups </div>
+
               <Row>
                 <Slide top cascade>
                 <div className="main-subText" id="section-header">Conclusion</div>

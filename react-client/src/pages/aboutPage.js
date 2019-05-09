@@ -27,7 +27,7 @@ class AboutPage extends Component {
               I'm always on the go and exploring new cities and countries whenever I can. Exploring different cultures provides a different perspective and sparks new ideas. Keeping myself busy keeps me very focused.
             </div>
             <div className="content-body"  id="about-body" style={{width: "80%"}}><span className="bold">I can make sure your vision turns to reality. </span>
-              As a <span className="bold">designer</span> and <span className="bold">developer</span> I can make sure that what you envision for your next product can turn into a <span className="bold">reality. </span>
+              As a <span className="bold">designer</span> and <span className="bold">developer</span> I can make sure that what you envision for your next product<span className="bold"> will be there. </span>
               My developer side fuels my design and my designer side drives my software development
             </div>
            </Col>
