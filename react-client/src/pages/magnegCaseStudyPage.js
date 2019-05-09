@@ -39,20 +39,18 @@ import Flip from 'react-reveal/Flip';
 class MagnegPage extends Component {
   render() {
     return (
-      <div>
-        <BannerLinkImage
-          backgroundColor=""
-          headerText="Magneg"
-          subText="A new cloud storage mobile application that allows users to create, store and collaborate all in one platform."
-          role="User Research, UX Design, Content Strategy, Prototyping, Brand Identity"
-          background="This project was my first project during my Bloc Apprenticeship program. We were tasked with creating a cloud storage application."
-          buttonText="View Prototype"
-          buttonLink="https://www.figma.com/proto/MLLZbAK70j2aG3NCv8Lad28h/Finishing-Touches?node-id=140%3A2&viewport=2036%2C1388%2C0.5&scaling=scale-down"
-          image={magnegIphone}
-          imageId="magneg-image"
-          newWindow={true} />
-          <div className="main-content">
             <div className="indented-section">
+            <BannerLinkImage
+              backgroundColor=""
+              headerText="Magneg"
+              subText="A new cloud storage mobile application that allows users to create, store and collaborate all in one platform."
+              role="User Research, UX Design, Content Strategy, Prototyping, Brand Identity"
+              background="This project was my first project during my Bloc Apprenticeship program. We were tasked with creating a cloud storage application."
+              buttonText="View Prototype"
+              buttonLink="https://www.figma.com/proto/MLLZbAK70j2aG3NCv8Lad28h/Finishing-Touches?node-id=140%3A2&viewport=2036%2C1388%2C0.5&scaling=scale-down"
+              image={magnegIphone}
+              imageId="magneg-image"
+              newWindow={true} />
                   <Row>
                     <Slide top cascade>
                       <div className="main-subText" id="section-header"> Overview </div>
@@ -519,9 +517,8 @@ class MagnegPage extends Component {
                 </Fade>
               </Row>
               </Row>
-          </div>
         </div>
-      </div>
+
     )
   }
 }

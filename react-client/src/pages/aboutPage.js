@@ -39,7 +39,7 @@ class AboutPage extends Component {
               <div className="bullet-item" >Independent UX Designer and Website Developer</div>
              <div className="bullet-item" >Full Stack Developer at <a className="page-link" href="https://www.goldmansachs.com/" _target="blank">Goldman Sachs</a></div>
              <div className="bullet-item" >Co-Founder and COO of <a className="page-link" href="https://www.macscientists.com/" _target="blank">MacScientists</a></div>
-             <div className="bullet-item" >Founder and Content Creator of <a className="page-link" href="www.societyxtech.com" _target="blank">Society x Tech</a></div>
+             <div className="bullet-item" >Founder and Content Creator of <a className="page-link" href="https://mailchi.mp/02da2a5b2d98/societyxtech" _target="blank">Society x Tech</a></div>
           </div>
           </div>
       </div>

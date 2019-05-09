@@ -19,6 +19,9 @@ import wireframes from "../images/travelix/dribble-shots.png";
 import sketches from "../images/travelix/sketches.jpg";
 import styleGuide from "../images/travelix/branding.png";
 import mockups from "../images/travelix/final-mockups.png";
+import homeA from "../images/travelix/homeA.png";
+import homeB from "../images/travelix/homeB.png";
+import iterations from "../images/travelix/iterations.png"
 import Slide from 'react-reveal/Slide';
 import Fade from 'react-reveal/Fade';
 import Flip from 'react-reveal/Flip';
@@ -28,20 +31,18 @@ import Flip from 'react-reveal/Flip';
 class TravelixPage extends Component {
   render() {
     return (
-      <div>
-        <BannerLinkImage
-          backgroundColor=""
-          headerText="Travelix"
-          subText="Travelix is a new mobile application that allows you plan your next vacation by giving you reviews, articles, and photos relevant to that area."
-          role="Ideation, User Research, UX Design, Content Strategy, Prototyping, and Brand Identity"
-          buttonText="View Prototype"
-          buttonLink="https://www.figma.com/proto/f2n348DjtiG7jTwazMLorylD/Travel-App?node-id=53%3A1&viewport=322%2C202%2C0.371819&scaling=scale-down"
-          background="This design project was created as a final project for my Bloc Apprenticeship program."
-          image={travelixIphone}
-          imageId="travelix-image"
-          newWindow={true} />
-          <div className="main-content">
             <div className="indented-section">
+            <BannerLinkImage
+              backgroundColor=""
+              headerText="Travelix"
+              subText="Travelix is a new mobile application that allows you plan your next vacation by giving you reviews, articles, and photos relevant to that area."
+              role="Ideation, User Research, UX Design, Content Strategy, Prototyping, and Brand Identity"
+              buttonText="View Prototype"
+              buttonLink="https://www.figma.com/proto/f2n348DjtiG7jTwazMLorylD/Travel-App?node-id=53%3A1&viewport=322%2C202%2C0.371819&scaling=scale-down"
+              background="This design project was created as a final project for my Bloc Apprenticeship program."
+              image={travelixIphone}
+              imageId="travelix-image"
+              newWindow={true} />
                   <Row>
                     <Slide top cascade>
                       <div className="main-subText" id="section-header"> Overview </div>
@@ -335,6 +336,49 @@ class TravelixPage extends Component {
                         </Col>
                     </Row>
                   </Row>
+              <Slide top cascade>
+                  <div className="main-subText" id="section-header">Testing</div>
+             </Slide>
+               <Fade>
+               <Col xs="12" sm="9" md="9" lg="9" xl="9" style={{marginLeft: "1em"}}>
+                 <Content title="Preference Testing"
+                   id="fullRow"
+                   content="Before bringing the wireframes to life, we wanted to see which of the different wireframes users preferred for the dashboard." />
+               </Col>
+               </Fade>
+               <Row style={{marginLeft: "10%", width: "80%"}}>
+                   <Col xs="12" md="6" lg="6" xl="6" className="preference-test">
+                   <Fade>
+                     <img src={homeA} id="mockup" />
+                     </Fade>
+                   </Col>
+                   <Fade>
+                   <Col xs="12" md="6" lg="6" xl="6" className="preference-test">
+                     <img src={homeB} id="mockup" />
+                     <Fade>
+                     <div id="usability-testing" style={{width: "70%", paddingLeft: "1em"}}>
+                       <div className="caption" id="testerPercentage">75%</div>
+                       <div className="content-body" id="tester"> of testers preferred the enlarged view of each content. </div>
+                     </div>
+                     </Fade>
+                   </Col>
+                   </Fade>
+                 </Row>
+                 <Row>
+                 <Fade>
+                 <Col xs="12" sm="9" md="9" lg="9" xl="9" style={{marginLeft: "1em"}}>
+                   <Content title="Usability Testing"
+                     id="fullRow"
+                     content="We conducted usability testing on the final mockups. While all usability testers were able to navigate through the app successfully with no issue, we noted some accessibility issues which caused some redesign of some of the look and feel." />
+                 </Col>
+                 </Fade>
+                 </Row>
+                 <Fade>
+                 <img src={iterations} id="travelixMockups"/>
+                 <div className="caption2">Some design iterations</div>
+                 </Fade>
+
+
               <Row>
                 <Slide top cascade>
               <div className="main-subText" id="section-header">Final Designs</div>
@@ -381,8 +425,7 @@ class TravelixPage extends Component {
               </Col>
               </Row>
           </div>
-        </div>
-      </div>
+
     )
   }
 }
