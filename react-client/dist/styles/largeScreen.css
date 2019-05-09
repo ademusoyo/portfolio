@@ -19,11 +19,6 @@
   bottom: 20px;
 }
 
-#my-hero-image{
-  width: 50%;
-  margin-left: 15%;
-}
-
 #case-study-image{
   width: 140%;
   padding-right: 50%;
@@ -46,44 +41,25 @@
   margin-left: 0%;
 }
 
-.group{
-  margin-left: 0%;
-  margin-right: 30%;
-  width: 80%;
-}
-
 .main-headerText{
   text-align: center;
-  right: 5em;
+  /*right: 5em;*/
 }
 
 .main-subText{
   text-align: center;
   font-size: 16px;
-  width: 75%;
-  margin-left: 13%;
+  /*margin-left: 13%;*/
 }
 
 #homepage-header-text{
   text-align: center;
-  margin-right: 15%;
+  margin: auto;
 }
 
 #homepage-header-sub-text{
   text-align: center;
-  padding-left: 6em;
-}
-
-#homepage-header-text{
-  text-align: center;
-  margin-left: 20%;
-  font-size: 40px;
-}
-
-#homepage-header-sub-text{
-  text-align: center;
-  width: 70%;
-  margin-left: 8em;
+  margin: auto;
 }
 
 .project{
@@ -133,7 +109,6 @@ p{
 
 #section-sub-header{
   width: 100%;
-  margin-left: 10%;
 }
 
 #preferenceTestMockup{
@@ -142,7 +117,6 @@ p{
 }
 
 .key-features{
-  margin-left: 47% !important;
 }
 
 .content{
@@ -151,7 +125,7 @@ p{
 
 
 #fullRow{
-  margin-left: 13%;
+  margin-left: 10%;
   width: 90%;
 }
 
@@ -164,26 +138,12 @@ ul{
 }
 
 .pie-chart-metric{
-  margin-left: 20%;
 }
 
-#competitive-image{
-  margin-left: 70%;
-}
-
-.caption{
-  margin-left: 63%;
-}
 
 #subCaption{
-  margin-left: 25%;
   width: 100%;
 }
-
-#pie-chart{
-  margin-left: 15%;
-}
-
 
 .user-persona{
   margin-left: 30%;
@@ -231,8 +191,6 @@ ul{
 }
 
 .indented-section{
-  margin-left: 0px;
-  margin-right: 0px;
 }
 
 #section-header{
@@ -297,22 +255,15 @@ footer{
   margin-left: 0;
 }
 
-.group{
-  margin-right: 30%;
-  margin-left: 0% !important;
-}
-
 .travelixSurveyAnalysis{
   margin-right: 40%;
 }
 
-.swot{
-  margin-right: 20%
-}
 
 #user-flow-image{
-    width: 30%;
-    margin-right: 15%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: auto;
 }
 
 #user-flow-map{
@@ -322,8 +273,7 @@ footer{
 
 #story-caption{
   margin-left: 0%;
-  padding-right: 8%;
-  weight: 100%;
+  width: 100%;
   /*margin-right: 5%;*/
 }
 
@@ -359,6 +309,8 @@ footer{
 
 #copyright{
   width: 100%;
+  margin-left: 0%;
+
 }
 
 #persona-image{

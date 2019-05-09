@@ -50,15 +50,16 @@ export const ContentButtonLinkImage = ({title, content, image, buttonLink, butto
   );
 };
 
-export const ContentImage = ({title, content, image, id, imageId}) =>{
+export const ContentImage = ({title, content, image, id, imageId, caption}) =>{
   return (
   <div className="content" id={id}>
           <div className="content-header">{title} </div>
           <div className="content-body">
               {content}
           </div>
-          <div>
+          <div style={{textAlign: "left"}}>
             <img src={image} id={imageId} className="content-image" />
+            <div className="caption2">{caption}</div>
           </div>
     </div>
   );

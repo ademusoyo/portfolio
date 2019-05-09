@@ -168,10 +168,10 @@ class MagnegPage extends Component {
                         <div className="caption">Strengths</div>
                         <div className="content-body" id="subCaption">Generous amounts of free storage</div>
                         <div className="content-body" id="subCaption">Supports real time collaboration</div>
-                        <div className="caption" id="adjustLeft2">Weaknesses</div>
+                        <div className="caption">Weaknesses</div>
                         <div className="content-body" id="subCaption">Multiple apps are needed for creating content</div>
                         <div className="content-body" id="subCaption">Works best with other google products</div>
-                        <div className="caption" id="adjustLeft">Opportunities</div>
+                        <div className="caption">Opportunities</div>
                         <div className="content-body" id="subCaption">Making it OS agnostic </div>
                         <div className="content-body" id="subCaption">Easy to share with others</div>
                         <div className="caption">Threats</div>
@@ -183,10 +183,10 @@ class MagnegPage extends Component {
                         <div className="caption">Strengths</div>
                         <div className="content-body" id="subCaption">Allows you to collect things that you find on the internet</div>
                         <div className="content-body" id="subCaption">Visually Driven</div>
-                        <div className="caption" id="adjustLeft2">Weaknesses</div>
+                        <div className="caption">Weaknesses</div>
                         <div className="content-body" id="subCaption">You can only store images</div>
                         <div className="content-body" id="subCaption">Limited collaboration</div>
-                        <div className="caption" id="adjustLeft">Opportunities</div>
+                        <div className="caption">Opportunities</div>
                         <div className="content-body" id="subCaption">Social Networking Site</div>
                         <div className="content-body" id="subCaption">Share Multiple File Types</div>
                         <div className="caption">Threats</div>
@@ -198,10 +198,10 @@ class MagnegPage extends Component {
                         <div className="caption">Strengths</div>
                         <div className="content-body" id="subCaption">Automatic backups</div>
                         <div className="content-body" id="subCaption">Integrates across all apple devices that you own </div>
-                        <div className="caption" id="adjustLeft2">Weaknesses</div>
+                        <div className="caption">Weaknesses</div>
                         <div className="content-body" id="subCaption">Limited Storage</div>
                         <div className="content-body" id="subCaption">Not Collaborative</div>
-                        <div className="caption" id="adjustLeft">Opportunities</div>
+                        <div className="caption" >Opportunities</div>
                         <div className="content-body" id="subCaption">More space available for free</div>
                         <div className="content-body" id="subCaption">Better understanding of what is being stored. </div>
                         <div className="caption">Threats</div>

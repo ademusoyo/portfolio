@@ -33,13 +33,15 @@ class AboutPage extends Component {
            </Col>
             </Row>
           </div>
-          <div className="main-subText" id="page-section-header"> Currently: </div>
-          <ul style={{marginBottom: "20%"}}>
-              <li className="bullet-item">Independent UX Designer and Website Developer</li>
-             <li className="bullet-item" >Full Stack Developer at <a className="page-link" href="https://www.goldmansachs.com/" _target="blank">Goldman Sachs</a></li>
-             <li className="bullet-item" >Co-Founder and COO of <a className="page-link" href="https://www.macscientists.com/" _target="blank">MacScientists</a></li>
-             <li className="bullet-item" >Founder and Content Creator of <a className="page-link" href="www.societyxtech.com" _target="blank">Society x Tech</a></li>
-          </ul>
+          <div className="indented-section">
+          <div className="main-subText" id="section-header"> Currently: </div>
+          <div style={{marginBottom: "20%", textAlign: "center"}}>
+              <div className="bullet-item" >Independent UX Designer and Website Developer</div>
+             <div className="bullet-item" >Full Stack Developer at <a className="page-link" href="https://www.goldmansachs.com/" _target="blank">Goldman Sachs</a></div>
+             <div className="bullet-item" >Co-Founder and COO of <a className="page-link" href="https://www.macscientists.com/" _target="blank">MacScientists</a></div>
+             <div className="bullet-item" >Founder and Content Creator of <a className="page-link" href="www.societyxtech.com" _target="blank">Society x Tech</a></div>
+          </div>
+          </div>
       </div>
     )
   }

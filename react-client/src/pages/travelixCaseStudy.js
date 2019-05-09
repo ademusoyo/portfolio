@@ -53,7 +53,7 @@ class TravelixPage extends Component {
                       content="Currently, people use multiple websites and applications to gain insight about a new place that they are visiting. This process can be really overwhelming and hard to synthesize into understanding what you want to to do and information tends to be missing."
                     />
                     </Col>
-                    <Col xs="12" sm="5" md="5" lg="5" xl="5">
+                    <Col xs="12" sm="6" md="6" lg="6" xl="6">
                       <Content title="Solution"
                         content="Travelix aims to be that new mobile application that centralizes all types of media for you to plan your dream location. Users have the ability to:"
                           />
@@ -80,19 +80,19 @@ class TravelixPage extends Component {
                     </Fade>
                     <Fade>
                     <Row className="group">
-                        <Col xs="12" sm="12" md="4" lg="4" xl="4" style={{textAlign: "center"}}>
+                        <Col xs="12" sm="12" md="4" lg="4" xl="4">
                         <PieChartMetric
                             pieChart={eightyOnePercent}
                             percentage="81%"
                             text="of participants stated that they primarily travel for personal reasons." />
                         </Col>
-                        <Col xs="12" sm="12" md="4" lg="4" xl="4" style={{textAlign: "center"}}>
+                        <Col xs="12" sm="12" md="4" lg="4" xl="4">
                         <PieChartMetric
                             pieChart={fifteenPercent}
                             percentage="15%"
                             text="of participants travel primarily for business." />
                         </Col>
-                        <Col xs="12" sm="12" md="4" lg="4" xl="4" style={{textAlign: "center"}}>
+                        <Col xs="12" sm="12" md="4" lg="4" xl="4">
                         <PieChartMetric
                             pieChart={tenPercent}
                             percentage="10%"
@@ -136,48 +136,48 @@ class TravelixPage extends Component {
                   </Fade>
                   <Fade>
                     <Row className="group">
-                      <Col xs="12" md="4" lg="4" xl="4" className="swot">
+                      <Col xs="12" sm="12" md="4" lg="4" xl="4" className="swot">
                         <img src={airbnb} id="competitive-image" />
-                        <div className="caption">Strengths</div>
+                        <div className="caption" id="subCaption" >Strengths</div>
                         <div className="content-body" id="subCaption">Allows you to look for different types of accommodations for varying groups of people</div>
                         <div className="content-body" id="subCaption">Can create an itinerary</div>
-                        <div className="caption" id="adjustLeft2">Weaknesses</div>
+                        <div className="caption" id="subCaption">Weaknesses</div>
                         <div className="content-body" id="subCaption">Lack of information about safety </div>
                         <div className="content-body" id="subCaption">Doesn’t allow you to compare with other sites</div>
-                        <div className="caption" id="adjustLeft">Opportunities</div>
+                        <div className="caption" id="subCaption">Opportunities</div>
                         <div className="content-body" id="subCaption">Varying sources for accommodations and excursions</div>
                         <div className="content-body" id="subCaption">Creating an itinerary</div>
-                        <div className="caption">Threats</div>
+                        <div className="caption" id="subCaption">Threats</div>
                         <div className="content-body" id="subCaption">Gives a limited view on the accommodation</div>
                         <div className="content-body" id="subCaption">Not reliable in terms of payments</div>
                       </Col>
-                      <Col xs="12" md="4" lg="4" xl="4"  className="swot">
+                      <Col xs="12" sm="12" md="4" lg="4" xl="4"  className="swot">
                         <img src={instagram} id="competitive-image" />
-                        <div className="caption" id="adjustLeft2">Strengths</div>
+                        <div className="caption" id="subCaption">Strengths</div>
                         <div className="content-body" id="subCaption">You can build your own brand/platform</div>
                         <div className="content-body" id="subCaption">Visually Driven</div>
-                        <div className="caption" id="adjustLeft2">Weaknesses</div>
+                        <div className="caption" id="subCaption">Weaknesses</div>
                         <div className="content-body" id="subCaption">Cannot share your organized content with others</div>
                         <div className="content-body" id="subCaption">Can be overwhelming to organize and consume</div>
-                        <div className="caption" id="adjustLeft">Opportunities</div>
+                        <div className="caption" id="subCaption">Opportunities</div>
                         <div className="content-body" id="subCaption">Create “feeds” based on different locations</div>
                         <div className="content-body" id="subCaption">Allow different media types to appear on the feed</div>
-                        <div className="caption" id="">Threats</div>
+                        <div className="caption" id="subCaption">Threats</div>
                         <div className="content-body" id="subCaption">Algorithm doesn't level out the playing field for everyone to see content.</div>
                         <div className="content-body" id="subCaption">Limited understanding of the images being shown.</div>
                       </Col>
-                      <Col xs="12" md="4" lg="4" xl="4"  className="swot">
+                      <Col xs="12" sm="12" md="4" lg="4" xl="4"  className="swot">
                         <img src={youtube} id="competitive-image" />
-                        <div className="caption" id="adjustLeft2">Strengths</div>
+                        <div className="caption" id="subCaption">Strengths</div>
                         <div className="content-body" id="subCaption">Allows you to view video content</div>
                         <div className="content-body" id="subCaption">Allows you to see more of an area that you are trying to visit</div>
-                        <div className="caption" id="adjustLeft2">Weaknesses</div>
+                        <div className="caption" id="subCaption">Weaknesses</div>
                         <div className="content-body" id="subCaption">You can only show videos</div>
                         <div className="content-body" id="subCaption">Has trended to more of a popularity contest</div>
-                        <div className="caption" id="adjustLeft">Opportunities</div>
+                        <div className="caption" id="subCaption">Opportunities</div>
                         <div className="content-body" id="subCaption">Showing video content</div>
                         <div className="content-body" id="subCaption">Creating lists for specific types of videos</div>
-                        <div className="caption">Threats</div>
+                        <div className="caption" id="subCaption">Threats</div>
                         <div className="content-body" id="subCaption">Only shows video content</div>
                         <div className="content-body" id="subCaption">Algorithm issues</div>
                       </Col>
@@ -239,7 +239,7 @@ class TravelixPage extends Component {
                   <Row>
                   <Fade>
                   <Col xs="12" md="9" lg="9" xl="9" style={{marginLeft: "1em"}}>
-                    <Content title="User Stories & User Flows "
+                    <Content title="User Stories"
                       content="While keeping our personas in mind, we focused on outlining the features that this new application would need to have by creating user stories. I focused on the high priority items in order to create the Minimum Viable Product (MVP) "
                       id="fullRow"
                         />
@@ -294,9 +294,11 @@ class TravelixPage extends Component {
                     <Row style={{marginLeft: "10%"}}>
                       <Col xs="12" md="9" lg="9" xl="9">
                         <img src={sketches} id="wireframes" />
+                        <div className="caption2" style={{paddingTop: ".5em"}}> Initial sketches of Travelix</div>
                       </Col>
                       <Col xs="12" md="9" lg="9" xl="9">
                       <img src={wireframes} id="wireframes"/>
+                      <div className="caption2" style={{marginBottom: "5em"}}>Some of the wireframes of Travelix</div>
                       </Col>
                     </Row>
                     </Fade>
@@ -310,10 +312,11 @@ class TravelixPage extends Component {
                         <Col xs="12" md="9" lg="9" xl="9">
                           <ContentImage
                             title="Logo & Naming"
-                            content="Travelix aims to allow you to discover new places and build your dream travel list within the platform. Within the platform, you’re building a list for your next travel destination and sharing your own travel experiences with other people. "
+                            content="When you're planning a trip, you are researching and planning where you want to go. Travelix aims to allow you to discover new places and build your dream travel list within the platform."
                             image={travelixSketches}
                             id="fullRow"
                             imageId="travelixMindMap"
+                            caption="Mind map"
                           />
                         </Col>
                         </Fade>
@@ -327,7 +330,7 @@ class TravelixPage extends Component {
                         />
                         </Fade>
                         <Fade>
-                        <img src={styleGuide} id="wireframes"/>
+                        <img src={styleGuide} id="styleguide"/>
                         </Fade>
                         </Col>
                     </Row>
@@ -348,6 +351,7 @@ class TravelixPage extends Component {
               </Fade>
               <Fade>
               <img src={mockups} id="travelixMockups"/>
+              <div className="caption2">Some of the final screens of Travelix</div>
               </Fade>
               </Row>
               <Row>

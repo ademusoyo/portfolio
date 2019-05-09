@@ -19,10 +19,10 @@ class NavBar extends Component {
       <header className={this.state.headerId}>
           <Menu right >
             <Link className="menu-link"to="/about">About</Link>
-            <a className="menu-link" href="https://mailchi.mp/02da2a5b2d98/societyxtech">Subscribe</a>
+            <a className="menu-link" href="https://calendly.com/ademusoyo">Let's Chat</a>
           </Menu>
           <ul id="headerButtons">
-          <li className="navButton"><a className="nav-link" href="https://mailchi.mp/02da2a5b2d98/societyxtech" target="_blank">Subscribe</a></li>
+          <li className="navButton"><a className="nav-link" href="https://calendly.com/ademusoyo" target="_blank">Let's Chat</a></li>
           <li className="navButton"><Link className="nav-link"to="/about">About</Link></li>
           </ul>
           <Link to="/">
