@@ -5,18 +5,9 @@ import { slide as Menu, MenuWrap } from 'react-burger-menu'
 import { HashLink } from 'react-router-hash-link';
 
 class NavBar extends Component {
-  constructor(props){
-    super(props);
-    this.state = {
-      headerId: this.props.headerId
-    };
-
-
-  }
-
   render() {
     return (
-      <header className={this.state.headerId}>
+      <header>
           <Menu right >
             <Link className="menu-link"to="/about">About</Link>
             <a className="menu-link" href="https://calendly.com/ademusoyo">Let's Chat</a>

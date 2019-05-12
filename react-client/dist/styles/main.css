@@ -1,11 +1,13 @@
 header {
-  display: block;
+  display: flex;
   width: 100%;
   height: 70px;
   background-color: #8db9c4;
   box-shadow:0 0 8px 0 black;
-  position: relative;
   z-index: 10;
+  align-items: center;
+  padding: 0 50px;
+
 }
 
 
@@ -13,6 +15,9 @@ header {
   background-color: #82A0BC;
 }
 
+.section{
+  padding: 0 10%;
+}
 
 .nav-bar{
   box-shadow:0 0 8px 0 black;
@@ -30,9 +35,9 @@ header {
 }
 
 .logo-image{
-  position: relative;
-  margin-left: 5.25em;
-  bottom: 20px;
+  /*margin-left: 5.25em;*/
+  margin-top: -2em;
+  width: 10%;
 }
 #app{
   overflow-x: hidden;
@@ -44,7 +49,7 @@ header {
   margin-bottom: 2%;
 }
 #persona-image{
-  margin-left: 20%;
+  padding: 0 25%;
 }
 
 #user-flow-image{
@@ -53,9 +58,8 @@ header {
 }
 
 #wireframes, #styleguide{
-  width: 90%;
+  width: 100%;
 }
-
 
 
 #aboutMe{
@@ -109,7 +113,7 @@ header {
   color: black;
   margin-right: auto;
   margin-left: auto;
-  margin-top: 2%;
+  margin-top: 20%;
   text-transform: uppercase;
   overflow: hidden;
   border-bottom: .1em solid;
@@ -141,6 +145,7 @@ header {
   color: black;
   text-transform: uppercase;
   font-weight: 200;
+  background: #f4f8f9;
 }
 
 .caption2{
@@ -152,6 +157,7 @@ header {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 1.2em;
 }
 
 #usability-testing{
@@ -169,10 +175,11 @@ header {
 #user-persona-header{
   font-family: 'Poppins', sans-serif;
   font-size: 28px;
-  /*margin: .5em;*/
+  margin: 1.5em 0 0 0;
   color: black;
   text-transform: uppercase;
   font-weight: 200;
+  text-align: center;
 }
 
 .user-persona{
@@ -182,21 +189,16 @@ header {
 
 #subCaption{
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  min-height: 44px;
 }
 
 #bio-text{
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
-  margin: .5em .5em 0 .5em;
   color: #5F506B;
-  margin-top: 2%;
-  padding-right: 10%;
   text-transform: uppercase;
   font-weight: 200;
   text-align: center;
-  padding-bottom: 5%;
 }
 
 #divider{
@@ -218,17 +220,17 @@ header {
 
 #headerButtons {
   list-style-type: none;
-  margin: 0;
-  padding: 0 1em 0 0;
+  /*margin: 0;
+  padding: 0 1em 0 0;*/
 }
 
 .navButton {
   float: right;
-  margin: .15em .5em 0 .75em ;
+  /*margin: .15em .5em 0 .75em ;*/
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   color: black;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 footer {
@@ -269,6 +271,10 @@ footer {
   font-size: 20px;
 }
 
+.key-features{
+  padding: 0 20%;
+}
+
 .indented-section{
   margin-left: 10%;
   margin-right: 10%;
@@ -300,7 +306,7 @@ footer {
 
 .emphasis{
   color: #5F506B;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .bold{
@@ -341,28 +347,33 @@ footer {
   background-color: #9D858D;
 }
 
-.key-features{
-  margin-left: 20% !important;
-  width: 70%
-}
-
 #magneg-image{
-  margin-top: 15%;
+  margin-top: 10%;
+  width:100%;
 }
 
 #travelix-image{
   margin-top: 7%;
+  width: 100%;
 }
 
 #travelix-persona-image{
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
 }
 
 #travelixMockups{
   margin-top: 2em;
-  width: 50%;
-  margin-left: 20%;
+  width: 100%;
+}
+
+#travelixDesigns{
+  width: 100%;
+}
+
+#magnegMockups{
+  width: 80%;
+  margin-left: 7%;
 }
 
 #contact-button{
@@ -376,7 +387,7 @@ footer {
 }
 
 #travelixMindMap{
-  width: 75%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -390,9 +401,15 @@ footer {
   margin: auto;
 }
 
-#percentage{
+#percentage, #result{
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 200;
 }
 
 #disclaimer{
@@ -425,7 +442,7 @@ footer {
   background-color: #5F506B;
   color: #C8D3D0;
   font-family: 'Poppins', sans-serif;
-  margin: 1.5em 1.9em 0 0;
+  margin: 1.5em -.5em;
   border-radius: 60px;
   padding-bottom: 1.5em;
 }
@@ -564,6 +581,10 @@ ul{
   width: 40em;
 }
 
+#gap{
+  margin-top: 12em;
+}
+
 .tile{
   font-size: 24px;
   font-family: 'Open Sans', sans-serif;
@@ -573,7 +594,7 @@ ul{
   width: 150px;
   height: 100px;
   text-align: center;
-  padding-top: 15%;
+  padding: 5% 5%;
   box-shadow: 5px 10px #8996A2;
 
 }
@@ -587,12 +608,9 @@ ul{
 .quote{
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
-  padding-bottom: 2em;
   text-align: center;
-  width: 80%;
-  margin-left: 5%;
-  margin-right: 5%;
-  color: #8db9c4
+  color: #8db9c4;
+  margin-top: -1em;
 }
 
 
@@ -636,8 +654,9 @@ ul{
   margin-top: 13%;
 }
 
-.content-image{
+.content-image-button{
   margin-bottom: 2.5em;
+  margin-left: -5em;
 }
 
 /* Hamburger Menu */

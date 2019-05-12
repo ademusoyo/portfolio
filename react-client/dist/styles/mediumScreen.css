@@ -12,10 +12,8 @@
 }
 
 .logo-image{
-  margin-left: 2%;
-  margin-right: 20%;
-  margin-top: 0;
-  bottom: 20px;
+  margin-top: -3em;
+  width: 30%;
 }
 
 #my-hero-image{
@@ -49,9 +47,9 @@
 }
 
 .group{
-  margin-left: 0%;
-  margin-right: 30%;
-  width: 80%;
+  margin-left: 2%;
+  margin-right: 0%;
+  width: 100%;
 }
 
 .main-headerText{
@@ -86,7 +84,7 @@ p{
 }
 
 #banner-button{
-  margin-left: 10%;
+  margin-left: 35%;
 }
 
 #banner-button-2{
@@ -106,14 +104,14 @@ p{
 }
 
 
+#result{
+  margin-left: 65%;
+}
+
 
 #tester{
   margin-left: 30%;
   width: 100%;
-}
-
-#testerPercentage{
-  margin-left: 75%;
 }
 
 #section-sub-header{
@@ -127,7 +125,6 @@ p{
 }
 
 .key-features{
-  margin-left: 40% !important;
 }
 
 .content{
@@ -148,24 +145,18 @@ ul{
 
 
 
-
-
-
 .user-persona{
-  margin-left: 20%;
   margin-bottom: 1.5em;
   width: 100%;
 }
 
 #bio-text{
   width: 100%;
-  margin-left: 30%;
 }
 
 
 .quote{
   width: 100%;
-  margin-left: 25%;
 }
 
 /*.content-body{
@@ -266,8 +257,8 @@ footer{
   /*margin-right: 5%;*/
 }
 
-.user-story{
-  margin-left: 50%;
+#userStories{
+  padding-left: 20%;
 }
 
 #wireframes{
@@ -294,16 +285,29 @@ footer{
 
 #copyright{
   width: 100%;
+  margin-left: 0%;
 }
 
 #persona-image{
-  margin-left: 35%;
+  padding: 0 5%;
 }
 
-#travelix-image, #magneg-image{
+
+#travelix-image{
   width: 45%;
   margin-left: 30%;
   margin-top: 0%;
+}
+
+#magneg-image{
+  width: 45%;
+  margin-left: 29%;
+  margin-top: 0%;
+}
+
+#travelix-persona-image{
+  margin-right: 20%;
+  margin-left: 20%;
 }
 
 .banner-description{
@@ -312,20 +316,11 @@ footer{
 
 #magnegMockups{
   width: 90%;
-  margin-top: 15%;
-  margin-left: -5%;
+  margin: 15% 20%;
 
 }
 
 .preference-test{
   text-align: center;
   margin-bottom: 10%;
-}
-
-.tile{
-  padding-top: 7%;
-}
-
-.swot{
-  margin-left: 20%;
 }

@@ -19,7 +19,7 @@ class ShortFooter extends Component {
               <a href="https://medium.com/@Ademusoyo" target="_blank"><img src={medium} alt = "medium icon"/></a>
               <a href="https://github.com/ademusoyo" target="_blank"><img src={github} alt = "github icon"/></a>
           </div>
-          <div className="content-body" id="copyright">Copyright © 2019 | Designed and Developed by Ademusoyo Awosika-Olumo</div>
+          <div className="content-body" id="copyright">© 2019 • <em>Designed and Developed by</em> Ademusoyo Awosika-Olumo</div>
       </div>
     )
   }

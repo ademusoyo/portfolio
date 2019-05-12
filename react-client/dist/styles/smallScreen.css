@@ -12,10 +12,8 @@
   }
 
   .logo-image{
-    margin-left: 2%;
-    margin-right: 20%;
-    margin-top: 0;
-    bottom: 50px;
+    margin-top: -3.75em;
+    width: 50%;
   }
 
   #my-hero-image{
@@ -82,7 +80,7 @@
   }
 
   #banner-button{
-    margin-left: 10%;
+    margin-left: 30%;
   }
 
   #banner-button-2{
@@ -109,6 +107,10 @@
     margin-left: 15%;
   }
 
+  #result{
+    margin-left: 65%;
+  }
+
   #tester{
     margin-left: 30%;
     width: 100%;
@@ -129,7 +131,7 @@
   }
 
   .key-features{
-    margin-left: 45% !important;
+    padding: 0 50%;
   }
 
   .content{
@@ -149,11 +151,10 @@
   }
 
   #competitive-image{
-    margin-left: 45%;
+    margin-left: 0%;
   }
 
   #subCaption{
-    margin-left: 25%;
     width: 100%;
   }
 
@@ -165,12 +166,14 @@
 
   #bio-text{
     padding-right: 0%;
-    margin-left: 15%;
+    width: 100%;
   }
 
+  .swot{
+    margin-left: 40%;
+  }
 
   .quote{
-    margin-right: 10%;
     width: 100%;
   }
 
@@ -285,10 +288,6 @@
     width: 100%;
   }
 
-  #styleguide{
-    margin-left: 10%;
-  }
-
   #aboutMe{
     width: 50%;
     margin-left: 25%;
@@ -307,10 +306,16 @@
 
   #copyright{
     width: 100%;
+    margin-left: 0%;
   }
 
   #persona-image{
+    padding: 0 5%;
+  }
+
+  #travelix-image{
     margin-left: 5%;
+    margin-right: auto;
   }
 
   #travelix-persona-image{
@@ -329,8 +334,13 @@
   #magnegMockups{
     width: 90%;
     margin-top: 15%;
-    margin-left: -5%;
+    margin-left: 10% !important ;
 
+  }
+
+  #magneg-image{
+    margin-right: auto;
+    margin-left: 5%;
   }
 
   .preference-test{

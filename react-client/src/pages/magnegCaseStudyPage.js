@@ -50,6 +50,9 @@ class MagnegPage extends Component {
               buttonLink="https://www.figma.com/proto/MLLZbAK70j2aG3NCv8Lad28h/Finishing-Touches?node-id=140%3A2&viewport=2036%2C1388%2C0.5&scaling=scale-down"
               image={magnegIphone}
               imageId="magneg-image"
+              duration="18 weeks"
+              tools="Figma, InVision, Maze, Google Forms"
+              deliverables="Competitive analysis, Survey results, User personas, Branding, Sitemap, Wireframes, Prototypes"
               newWindow={true} />
                   <Row>
                     <Slide top cascade>
@@ -116,32 +119,32 @@ class MagnegPage extends Component {
                           </Fade>
                           <Fade>
                           <Row className="key-features">
-                            <Col xs="6" md="4" lg="4" xl="4">
+                            <Col xs="6" sm="6" md="4" lg="4" xl="4" id="space">
                               <div className="tile">
                                 Upload
                               </div>
                             </Col>
-                            <Col xs="6" md="4" lg="4" xl="4">
+                            <Col xs="6" sm="6" md="4" lg="4" xl="4">
                               <div className="tile">
                                 Create
                               </div>
                             </Col>
-                            <Col xs="6" md="4" lg="4" xl="4">
+                              <Col xs="6" sm="6" md="4" lg="4" xl="4">
                               <div className="tile">
                                 Organize
                               </div>
                             </Col>
-                            <Col xs="6" md="4" lg="4" xl="4">
+                            <Col xs="6" sm="6" md="4" lg="4" xl="4">
                               <div className="tile">
                                 Share
                               </div>
                             </Col>
-                            <Col xs="6" md="4" lg="4" xl="4">
+                              <Col xs="6" sm="6" md="4" lg="4" xl="4">
                               <div className="tile">
                                 Collaborate
                               </div>
                             </Col>
-                            <Col xs="6" md="4" lg="4" xl="4">
+                              <Col xs="6" sm="6" md="4" lg="4" xl="4">
                               <div className="tile" id="special-tile">
                                 Offline Access
                               </div>
@@ -161,7 +164,7 @@ class MagnegPage extends Component {
                   </Fade>
                   <Fade>
                     <Row className="group">
-                      <Col xs="6" md="4" lg="4" xl="4" className="swot">
+                      <Col xs="6" sm="4" md="4" lg="4" xl="4" className="swot">
                         <img src={googleDrive} id="competitive-image" />
                         <div className="caption" id="subCaption">Strengths</div>
                         <div className="content-body" id="subCaption">Generous amounts of free storage</div>
@@ -176,7 +179,7 @@ class MagnegPage extends Component {
                         <div className="content-body" id="subCaption">Only works well for those who use google products for storage</div>
                         <div className="content-body" id="subCaption">For ease of collaboration, everyone would need a gmail account</div>
                       </Col>
-                      <Col xs="6" md="4" lg="4" xl="4" className="swot">
+                      <Col xs="6" sm="4" md="4" lg="4" xl="4" className="swot">
                         <img src={pinterest} id="competitive-image" />
                         <div className="caption" id="subCaption">Strengths</div>
                         <div className="content-body" id="subCaption">Allows you to collect things that you find on the internet</div>
@@ -191,7 +194,7 @@ class MagnegPage extends Component {
                         <div className="content-body" id="subCaption">Only geared for a specific type of audience</div>
                         <div className="content-body" id="subCaption">Outside of images types, nothing else can be shared</div>
                       </Col>
-                      <Col xs="6" md="4" lg="4" xl="4" className="swot">
+                      <Col xs="6" sm="4" md="4" lg="4" xl="4" className="swot">
                         <img src={icloud} id="competitive-image" />
                         <div className="caption" id="subCaption">Strengths</div>
                         <div className="content-body" id="subCaption">Automatic backups</div>
@@ -308,22 +311,24 @@ class MagnegPage extends Component {
                   <Row>
                     <Fade>
                     <Col xs="12"  sm="9" md="9" lg="9" xl="9">
-                    <Content
+                    <ContentImage
                       title="Sketches & Wireframes"
                       content="Once we have an understanding of how we want this mobile application to flow, we then proceeded to begin focusing more on design. I first began sketching by hand to formulate a general idea and then transitioned into build low-fi digital wireframes. Usability testing was conducted in person testing users ability to upload a file, organize a file, and create an account with a clickable low-fi prototype. Overall the results were positive stating that the only roadblock was to make the buttons stand out and to make the organize a file option more clear."
-                      id="fullRow"
+                      image={sketches}
+                      caption="Initial sketches."
+                      imageId="wireframes"
+                      id="gap"
                     />
                     </Col>
                       </Fade>
                       <Fade>
-                    <Row style={{marginLeft: "10%"}}>
-                    <Col xs="12" sm="9" md="9" lg="9" xl="9">
-                    <img src={sketches} id="wireframes"/>
-                    <div className="content-body" id="subCaption" style={{marginTop: ".5em"}}>Initial Sketches</div>
-                    </Col>
+                    <Row>
                       <Col xs="12" sm="9" md="9" lg="9" xl="9">
-                      <img src={wireframes} id="wireframes"/>
-                          <div className="content-body" id="subCaption" style={{marginTop: ".5em"}}>Wireframes</div>
+                      <ContentImage
+                        image={wireframes}
+                        caption="some of the wireframes"
+                        imageId="wireframes"
+                      />
                       </Col>
                     </Row>
                     </Fade>
@@ -339,6 +344,7 @@ class MagnegPage extends Component {
                             title="Logo & Naming"
                             content="Magneg aims to portray that is fun, reliable and collaborative. It is the one-stop shop for the people both create and collaborate. We wanted to use an icon that represents attraction because the aim is for people to be drawn to use Magneg instead of other cloud-sharing services. When we think of attraction, we think of magnets. We chose to use something that was a play on the word magnet, and thus Magneg was born."
                             image={magnegSketches}
+                            imageId="wireframes"
                             caption="Logo iterations"
                             id="fullRow"
                           />
@@ -350,11 +356,11 @@ class MagnegPage extends Component {
                         <Content
                           title="Branding"
                           content="Before jumping into the design, we wanted to determine the overall look and feel for the app. We wanted it to be colorful, but also present a very minimalistic look and feel for the design. We chose to use more cool colors that symbolize reliability and trust within the platform. We chose to pair the fonts Karla and Montserrat because we felt that they gave a more fun and collaborative mood."
-                          id="fullRow"
+                          id="gap"
                         />
                         </Fade>
                         <Fade>
-                        <img src={styleGuide} id="wireframes"/>
+                        <img src={styleGuide} id="styleguide"/>
                         </Fade>
                         </Col>
 
@@ -410,7 +416,7 @@ class MagnegPage extends Component {
                           </Fade>
                           <Fade>
                           <div id="usability-testing" style={{width: "70%", paddingLeft: "1em"}}>
-                            <div className="caption" id="testerPercentage">75%</div>
+                            <div id="result">75%</div>
                             <div className="content-body" id="tester"> of testers preferred the lighter color scheme. </div>
                           </div>
                           </Fade>
@@ -435,7 +441,7 @@ class MagnegPage extends Component {
                             </Fade>
                               <Fade>
                             <div id="usability-testing" style={{width: "70%", paddingLeft: "1em"}}>
-                            <div className="caption" id="testerPercentage">60%</div>
+                            <div id="result">60%</div>
                             <div className="content-body" id="tester"> of testers preferred the buttons to be seperated from each other.</div>
                             </div>
                             </Fade>
@@ -448,7 +454,7 @@ class MagnegPage extends Component {
                             </Fade>
                             <Fade>
                             <div id="usability-testing" style={{width: "70%", paddingLeft: "1em"}}>
-                            <div className="caption" id="testerPercentage">50%</div>
+                            <div id="result">50%</div>
                             <div className="content-body" id="tester"> of testers preferred the buttons to be in its own menu rather than at the bottom.</div>
                             </div>
                             </Fade>
@@ -467,24 +473,23 @@ class MagnegPage extends Component {
               </Slide>
               <Fade>
               <Col xs="12" sm="9" md="9" lg="9" xl="9">
-                <ContentButton title="High-Definition Mockups"
+                <ContentButtonLinkImage title="High-Definition Mockups"
                   content="Taking in the concluding results of the preference and usability tests and the personas from the very beginning, it's time to finalize the designs. We went through several iterations to get to the finalized solution that is clean, simple and solves our original problem. The prototype was created using Figma."
                   buttonText="View Prototype"
                   buttonLink="https://www.figma.com/proto/MLLZbAK70j2aG3NCv8Lad28h/Finishing-Touches?node-id=140%3A2&viewport=2036%2C1388%2C0.5&scaling=scale-down"
                   id="fullRow"
+                  image={mockups}
+                  imageId="magnegMockups"
+                  caption="Final screens of Magneg Mockups"
                     />
               </Col>
               </Fade>
-
-              <Row style={{marginLeft: "20%"}}>
-              <img src={mockups} id="magnegMockups" />
-              </Row>
-                <div className="content-body" id="subCaption" style={{marginTop: ".5em"}}>Final Mockups </div>
+                  </Row>
 
               <Row>
-                <Slide top cascade>
-                <div className="main-subText" id="section-header">Conclusion</div>
-                </Slide>
+              <Slide top cascade>
+            <div className="main-subText" id="section-header">Conclusion</div>
+            </Slide>
                 <Col xs="12" sm="9" md="9" lg="9" xl="9">
                 <Fade>
                 <Content
@@ -516,7 +521,7 @@ class MagnegPage extends Component {
                 </Col>
                 </Fade>
               </Row>
-              </Row>
+
         </div>
 
     )

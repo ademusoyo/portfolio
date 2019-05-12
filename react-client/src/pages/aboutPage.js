@@ -7,13 +7,13 @@ class AboutPage extends Component {
   render() {
     return (
       <div>
-        <div className="main-subText" id="page-section-header"> About Me </div>
           <div className="main-content" style={{marginLeft: "5%"}}>
+            <div className="main-subText" id="section-header" style={{marginRight: "10%"}}> About Me </div>
             <Row className="section">
             <Col xs="12" sm="12" m="6" lg="6" xl="6">
               <img src={aboutMe} id="aboutMe"/>
             </Col>
-            <Col xs="12" sm="12" m="6" lg="6" xl="6">
+            <Col xs="12" sm="12" m="6" lg="6" xl="6" className="closer">
             <div className="content-body" id="about-body" style={{width: "80%"}}><span className="bold">I'm passionate about technology and it's impact on society. </span>
             As technology keeps advancing, we have been able to see the ways in which it has impacted our lives in both a positive way. I believe in the importance of understanding humanities and how we create new products with people in mind.
             I don't want to create new products for the sake of creating them, I want to make sure that what I'm creating will make a <span className="bold">lasting impact</span>.
