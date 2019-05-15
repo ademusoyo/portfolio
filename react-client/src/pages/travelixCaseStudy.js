@@ -202,7 +202,7 @@ class TravelixPage extends Component {
                     />
                     </Col>
                     </Fade>
-                    <Row className="group">
+                    <Row className="user-personas">
                       <Fade>
                       <Col xs="12" sm="6" md="6" lg="6" xl="6" className="user-persona">
                         <img src={nimi} id="travelix-persona-image" />
@@ -328,55 +328,57 @@ class TravelixPage extends Component {
                     </Fade>
                   <Row>
                 </Row>
-                    <Row>
-                      <Slide top cascade>
-                        <div className="main-subText" id="section-header">Brand Identity</div>
-                        </Slide>
-                        <Fade>
-                        <Col xs="12" md="9" lg="9" xl="9">
-                          <ContentImage
-                            title="Logo & Naming"
-                            content="We chose the name Travelix as a play on the word Travel and List. When you're planning a trip, you're typically making a list of places you want to travel. I did a mind mapping excercise to help get ideas on different names."
-                            image={travelixSketches}
-                            id="fullRow"
-                            imageId="travelixMindMap"
-                            caption="Mind map"
-                          />
-                        </Col>
-                        </Fade>
-
-                        <Col xs="12" md="9" lg="9" xl="9">
-                        <Fade>
+                  </Row>
+                  <Row>
+                    <Slide top cascade>
+                      <div className="main-subText" id="section-header">Brand Identity</div>
+                      </Slide>
+                      <Fade>
+                      <Col xs="12" md="9" lg="9" xl="9">
                         <ContentImage
-                          title="Color"
-                          content="We wanted Travelix to exude some sense of vibrancy while also being very minimalistic. The red and orange colors give off the sense of adventure while the brown/tannish colors give that base of calmness and reliability."
+                          title="Logo & Naming"
+                          content="We chose the name Travelix as a play on the word Travel and List. When you're planning a trip, you're typically making a list of places you want to travel. I did a mind mapping excercise to help get ideas on different names."
+                          image={travelixSketches}
                           id="fullRow"
-                          image={color}
+                          imageId="travelixMindMap"
+                          caption="Mind map"
                         />
-                        </Fade>
-                        </Col>
+                      </Col>
+                      </Fade>
 
-                        <Col xs="12" md="9" lg="9" xl="9">
-                        <Fade>
-                        <ContentImage
-                          title="Typography"
-                          content="Our goals when choosing a font was to provide dramatic, bold text paired with subtle minimalistic text. Within the application we decided to use Abril Fatface and Josephin Sans because the bold, geometric shapes of Abril Fatface pairs well with the San-Serif font Josefin Sans to create a vibrant yet minimalistic look and feel. "
-                          id="fullRow"
-                          image={typography}
-                        />
-                        </Fade>
-                        </Col>
-                    </Row>
+                      <Col xs="12" md="9" lg="9" xl="9">
+                      <Fade>
+                      <ContentImage
+                        title="Color"
+                        content="We wanted Travelix to exude some sense of vibrancy while also being very minimalistic. The red and orange colors give off the sense of adventure while the brown/tannish colors give that base of calmness and reliability."
+                        id="fullRow"
+                        image={color}
+                      />
+                      </Fade>
+                      </Col>
+
+                      <Col xs="12" md="9" lg="9" xl="9">
+                      <Fade>
+                      <ContentImage
+                        title="Typography"
+                        content="Our goals when choosing a font was to provide dramatic, bold text paired with subtle minimalistic text. Within the application we decided to use Abril Fatface and Josephin Sans because the bold, geometric shapes of Abril Fatface pairs well with the San-Serif font Josefin Sans to create a vibrant yet minimalistic look and feel. "
+                        id="fullRow"
+                        image={typography}
+                      />
+                      </Fade>
+                      </Col>
                   </Row>
               <Slide top cascade>
                   <div className="main-subText" id="section-header">Testing</div>
              </Slide>
                <Fade>
-               <Col xs="12" sm="9" md="9" lg="9" xl="9" style={{marginLeft: "1em"}}>
+               <Row>
+               <Col xs="12" sm="9" md="9" lg="9" xl="9" style={{paddingLeft: "2%"}}>
                  <Content title="Preference Testing"
                    id="fullRow"
                    content="Before bringing the wireframes to life, we wanted to see which of the different wireframes users preferred for the dashboard." />
                </Col>
+               </Row>
                </Fade>
                <Row style={{marginLeft: "10%", width: "80%"}}>
                    <Col xs="12" sm="6" md="6" lg="6" xl="6" className="preference-test">
@@ -449,7 +451,7 @@ class TravelixPage extends Component {
                   <Fade>
                       <Content title=""
                         content="When considering actual development of this application, I would challenge the high priority items to see what could be dropped down to medium priority items in order to get the product out sooner rather than later. "
-                        id="fullRow"
+                        id="addPadding"
                           />
                   </Fade>
               </Col>

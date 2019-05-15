@@ -16,7 +16,8 @@ header {
 }
 
 .section{
-  padding: 0 10%;
+  margin: 0 10% !important;
+  width: 90%;
 }
 
 .nav-bar{
@@ -185,6 +186,10 @@ header {
 .user-persona{
   margin-left: auto;
   margin-right: auto;
+}
+
+.user-personas{
+  padding-left: 4%;
 }
 
 #subCaption{
@@ -458,11 +463,10 @@ footer {
 }
 
 .case-study-section{
-  margin-left: 15%;
   width: 80%;
-  margin-top: 5%;
-  margin-bottom: 15%;
   overflow: hidden;
+  margin: 5% 15% 15% 15%;
+
 }
 
 .closer{
@@ -516,8 +520,7 @@ a:hover{
 }
 
 .group{
-  margin-left: auto;
-  margin-right: auto;
+  padding-left: 2.1em;
 }
 
 ul{
@@ -549,7 +552,7 @@ ul{
 }
 
 #case-study-description{
-  width: 80%;
+  width: 100%;
 }
 
 .form-label{
@@ -581,8 +584,20 @@ ul{
   width: 40em;
 }
 
+.content{
+}
 #gap{
   margin-top: 12em;
+  margin-left: 1em;
+}
+
+#fullRow{
+  margin-left: 1em;
+}
+
+#addPadding{
+  margin-left: 1em;
+  margin-bottom: 10em;
 }
 
 .tile{
@@ -656,7 +671,6 @@ ul{
 
 .content-image-button{
   margin-bottom: 2.5em;
-  margin-left: -5em;
 }
 
 /* Hamburger Menu */

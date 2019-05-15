@@ -19,10 +19,10 @@ const styles = {
 export const CaseStudySection  = ({projectName, projectDescription, caseStudyLink, image}) => {
     return (
       <div className="case-study-section">
-            <Col xs="6" m="6" lg="6" xl="6">
-              <Image src={image} id="case-study-image"/>
+            <Col xs="12" sm="12" m="6" lg="6" xl="6" >
+              <img src={image} id="case-study-image" />
             </Col>
-            <Col xs="6" m="6" lg="6" xl="6">
+            <Col xs="12" sm="12" m="5" lg="5" xl="5" style={{paddingLeft: "10%"}}>
             <div className="content-header" id="case-study-header">{projectName}</div>
             <div className="content-body" id="case-study-description">
               {projectDescription}
