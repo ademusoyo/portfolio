@@ -12,7 +12,7 @@
   }
 
   .logo-image{
-    margin-top: -3.75em;
+    margin-top: -4em;
     width: 50%;
   }
 
@@ -20,14 +20,41 @@
     width: 75%;
     margin-left: auto;
     margin-right: auto;
-    /*margin-left: 25%;*/
   }
 
   #case-study-image{
-    width: 140%;
-    padding-right: 50%;
+    margin-left: 5%;
 
   }
+
+  .case-study-section{
+    text-align: center;
+  }
+
+  #case-study-header{
+    margin-right: 10%;
+  }
+
+
+  .case-study-project-description{
+    left: 10%;
+  }
+
+  #case-study-role{
+    text-align: center;
+    margin-left: 5%;
+  }
+
+  #case-study-description{
+   padding-right: 5%;
+   text-align: center;
+  }
+
+  #long-project-name{
+    margin-left: 10%;
+  }
+
+
 
   .bm-burger-button {
     position: relative;
@@ -181,19 +208,7 @@
     text-align: center;
   }*/
 
-  .case-study-section{
-    text-align: center;
-  }
-
-  #case-study-header{
-    margin-right: 10%;
-  }
-
-  #case-study-description{
-    margin-left: 5%;
-
-  }
-
+ 
   .closer{
     right: 0px;
   }
@@ -205,7 +220,7 @@
 
   #section-header{
     margin-right: 0%;
-    margin-left: 20%;
+    margin-left: 15%;
   }
 
   #page-section-header{
@@ -224,7 +239,7 @@
 
 
   .action-button{
-    margin-left: 0%;
+    margin-left: 21%;
   }
 
 

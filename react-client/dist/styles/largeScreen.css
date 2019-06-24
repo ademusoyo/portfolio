@@ -14,20 +14,10 @@
 
 
 .logo-image{
-  margin-top: -3em;
+  margin-top: -4em;
   width: 25%;
 }
 
-
-#case-study-image{
-  width: 140%;
-  padding-right: 50%;
-
-}
-
-#case-study-button{
-  margin-right: 10%;
-}
 
 .bm-burger-button {
   position: relative;
@@ -173,6 +163,9 @@ ul{
   text-align: center;
 }*/
 
+#project-name{
+  margin-left: 11%;
+}
 .case-study-section{
   text-align: center;
 }
@@ -181,21 +174,32 @@ ul{
   margin-right: 10%;
 }
 
-#case-study-description{
-  margin-left: 5%;
 
+.case-study-project-description{
+  left: 10%;
+}
+
+#case-study-role{
+  text-align: center;
+  margin-left: -13%;
+}
+
+#case-study-description{
+ padding-right: 25%;
+ text-align: center;
+}
+
+#case-study-button{
+  margin-left: 25%;
 }
 
 .closer{
   right: 0px;
 }
 
-.indented-section{
-}
 
 #section-header{
   margin-right: 0%;
-  margin-left: 10%;
 }
 
 #page-section-header{

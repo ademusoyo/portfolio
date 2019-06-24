@@ -1,38 +1,83 @@
 import React, { Component } from 'react';
-import {Button, CardBody, Col, Row, CardTitle} from 'reactstrap';
-import { fadeIn, slideInRight } from 'react-animations';
-import Radium, {StyleRoot} from 'radium';
-import { Grid, Image, Card } from 'semantic-ui-react'
+import { Grid, Image } from 'semantic-ui-react'
+import {Button} from 'reactstrap';
 
-const styles = {
-  fadeIn: {
-    animation: 'x 10s',
-    animationName: Radium.keyframes(fadeIn, 'fadeIn'),
-  },
-  slideInRight: {
-    animation: 'x 2s',
-    animationName: Radium.keyframes(slideInRight, 'slideInRight'),
-    animationDelay: '1000'
-  }
-}
 
-export const CaseStudySection  = ({projectName, projectDescription, caseStudyLink, image}) => {
+export const CaseStudySection  = ({projectName, projectDescription, caseStudyLink, image, role}) => {
     return (
-      <div className="case-study-section">
-            <Col xs="12" sm="12" m="6" lg="6" xl="6" >
-              <img src={image} id="case-study-image" />
-            </Col>
-            <Col xs="12" sm="12" m="5" lg="5" xl="5" style={{paddingLeft: "10%"}}>
-            <div className="content-header" id="case-study-header">{projectName}</div>
-            <div className="content-body" id="case-study-description">
-              {projectDescription}
-            </div>
-            <div>
+    <Grid columns={2} style={{marginBottom: "10%"}} centered stackable>
+        <Grid.Column largeScreen={6} mobile={12} tablet={12}> 
+          <Image src={image} id="case-study-image"/>
+        </Grid.Column>
+        <Grid.Column largeScreen={6} mobile={12} tablet={12} className="case-study-project-description">
+        <div className="main-subText" id="project-name"> {projectName} </div>
+          <div className="content-body" id="case-study-role">
+            {role}
+          </div>
+          <div className="content-body" id="case-study-description">
+             {projectDescription}
+          </div>
+          <div style={{textAlign: "left"}}> 
               <a href={caseStudyLink}>
-                <Button className="action-button" size="md" style={{marginTop: "0em"}} id="case-study-button">View Case Study</Button>
+                <Button className="action-button" size="md" style={{marginTop: "0em"}} id="case-study-button">
+                  View Case Study
+                </Button>
               </a>
-            </div>
-            </Col>
-      </div>
+          </div>
+        </Grid.Column>
+    </Grid>
     );
+};
+
+export const ViewWebsite  = ({projectName, projectDescription, caseStudyLink, image, role}) => {
+  return (
+  <Grid columns={2} style={{marginBottom: "10%"}} centered stackable>
+      <Grid.Column largeScreen={6} mobile={12} tablet={12}> 
+        <Image src={image} id="case-study-image"/>
+      </Grid.Column>
+      <Grid.Column largeScreen={6} mobile={12} tablet={12} className="case-study-project-description">
+      <div className="main-subText" id="long-project-name"> {projectName} </div>
+        <div className="content-body" id="case-study-role">
+          {role}
+        </div>
+        <div className="content-body" id="case-study-description">
+           {projectDescription}
+        </div>
+        <div style={{textAlign: "left"}}> 
+            <a href={caseStudyLink} target="_blank">
+              <Button className="action-button" size="md" style={{marginTop: "0em"}} id="case-study-button">
+                View Website
+              </Button>
+            </a>
+        </div>
+      </Grid.Column>
+  </Grid>
+  );
+};
+
+
+export const CaseStudySectionReverse  = ({projectName, projectDescription, caseStudyLink, image, role}) => {
+  return (
+  <Grid columns={2} style={{marginBottom: "10%", marginLeft: "17em"}}>
+      <Grid.Column largeScreen={6} mobile={12} tablet={12}>
+      <div className="main-subText" id="project-name"> {projectName} </div>
+        <div className="content-body" id="case-study-role">
+          {role}
+        </div>
+        <div className="content-body" id="case-study-description">
+           {projectDescription}
+        </div>
+        <div style={{textAlign: "left"}}> 
+            <a href={caseStudyLink}>
+              <Button className="action-button" size="md" style={{marginTop: "0em"}} id="case-study-button">
+                View Case Study
+              </Button>
+            </a>
+        </div>
+      </Grid.Column>
+      <Grid.Column largeScreen={6} mobile={12} tablet={12}> 
+        <Image src={image} id="case-study-image" />
+      </Grid.Column>
+  </Grid>
+  );
 };

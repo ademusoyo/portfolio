@@ -1,38 +1,21 @@
 import React, { Component } from 'react';
 import {Row, Col, Button} from 'reactstrap';
+import { Image, Container, Grid } from 'semantic-ui-react'
 
 export const Banner = ({backgroundColor, headerText, subText}) => {
   return (
-    <div className={backgroundColor}>
-      <Row>
+    <Container className={backgroundColor}>
       <div className="indented-section" id="header-section" style={{textAlign: "center"}}>
         <div className="main-headerText" >{headerText}</div>
         <div className="main-subText">{subText}</div>
       </div>
-      </Row>
-    </div>
+    </Container>
   );
-};
-
-export const BannerLink = ({backgroundColor, headerText, subText, buttonLink, buttonText}) =>{
-  return (
-    <div className={backgroundColor}>
-      <Row>
-      <div className="indented-section" id="about-header" style={{textAlign: "center"}}>
-          <div className="main-headerText">{headerText}</div>
-          <div className="main-subText">{subText}</div>
-        <a href={buttonLink} target="_blank">
-          <Button className="action-button" size="lg" style={{marginBottom: "1.5em"}} id="banner-button">{buttonText}</Button>
-        </a>
-      </div>
-      </Row>
-    </div>
-  )
 };
 
 export const BannerLinkImage = ({backgroundColor, headerText, subText, role, buttonText, newWindow, buttonLink, image, imageId, background, tools, duration, deliverables}) => {
   return (
-    <div className={backgroundColor}>
+    <div className={backgroundColor} style={{marginTop: "5em"}}>
         <Row>
           <Col xs="12" m="6" lg="6" xl="6" className="banner-description">
             <div id="header-section">
@@ -76,3 +59,4 @@ export const BannerLinkImage = ({backgroundColor, headerText, subText, role, but
     </div>
   );
 };
+

@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
 import {Card, Button, CardBody, Col, Row, CardTitle} from 'reactstrap';
 import aboutMe from '../images/about-me.JPG';
-import { Link } from 'react-router-dom';
+import { Grid, Image } from 'semantic-ui-react';
 
 class AboutPage extends Component {
   render() {
     return (
       <div>
           <div className="indented-section">
-            <div className="main-subText" id="section-header"> About Me </div>
-            <Row className="section">
-            <Col xs="12" sm="12" m="6" lg="6" xl="6">
-              <img src={aboutMe} id="aboutMe"/>
-            </Col>
-            <Col xs="12" sm="12" m="6" lg="6" xl="6" className="closer">
+            <div className="main-subText" id="section-header" style={{paddingTop: "3em"}}> About Me </div>
+            <Grid columns={2}>
+            <Grid.Row className="section">
+            <Grid.Column>
+              <Image src={aboutMe} id="aboutMe"/>
+            </Grid.Column>
+            <Grid.Column>
             <div className="content-body" id="about-body"><span className="bold">I'm passionate about technology and it's impact on society. </span>
             As technology keeps advancing, we have been able to see the ways in which it has impacted our lives in both a positive way. I believe in the importance of understanding humanities and how we create new products with people in mind.
             I don't want to create new products for the sake of creating them, I want to make sure that what I'm creating will make a <span className="bold">lasting impact</span>.
@@ -30,8 +31,10 @@ class AboutPage extends Component {
               As a <span className="bold">designer</span> and <span className="bold">developer</span> I can make sure that what you envision for your next product<span className="bold"> will be there. </span>
               My developer side fuels my design and my designer side drives my software development
             </div>
-           </Col>
-            </Row>
+           </Grid.Column>
+            </Grid.Row>
+
+            </Grid>
           </div>
           <div className="indented-section">
           <div className="main-subText" id="section-header"> Currently: </div>
