@@ -3,7 +3,7 @@ import {Col, Row} from 'reactstrap';
 import {BannerLinkImage} from '../components/banners';
 import {Content, ContentImage, ContentBigImage, ContentButton, ContentButtonLinkImage} from '../components/contentOptions';
 import societyxTechMac from "../images/societyxtech/societyxTechMac.png";
-import mindMap from "../images/societyxTech/mind-map.JPG";
+import mindMap from "../images/societyxtech/mind-map.JPG";
 import wireframes from "../images/societyxtech/wireframes.png";
 import sketches from "../images/societyxtech/sketches.JPG";
 import typography from "../images/societyxtech/typography.png"
