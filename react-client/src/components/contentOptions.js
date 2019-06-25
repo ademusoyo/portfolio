@@ -65,3 +65,18 @@ export const ContentImage = ({title, content, image, id, imageId, caption}) =>{
     </div>
   );
 }
+
+export const ContentBigImage = ({title, content, image, id, imageId, caption}) =>{
+  return (
+  <div className="content" id={id}>
+          <div className="content-header">{title} </div>
+          <div className="content-body">
+              {content}
+          </div>
+          <div style={{textAlign: "left"}} className="content-image">
+            <img src={image} id={imageId} />
+            <div className="caption3">{caption}</div>
+          </div>
+    </div>
+  );
+}

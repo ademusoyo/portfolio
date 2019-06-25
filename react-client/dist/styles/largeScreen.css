@@ -163,9 +163,9 @@ ul{
   text-align: center;
 }*/
 
-#project-name{
+/* #project-name{
   margin-left: 11%;
-}
+} */
 .case-study-section{
   text-align: center;
 }
@@ -190,9 +190,12 @@ ul{
 }
 
 #case-study-button{
-  margin-left: 25%;
+  margin-left: 27%;
 }
 
+#case-study-image{
+  margin-left: 5%;
+}
 .closer{
   right: 0px;
 }
