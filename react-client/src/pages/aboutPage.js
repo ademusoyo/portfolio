@@ -6,45 +6,51 @@ import { Grid, Image } from 'semantic-ui-react';
 class AboutPage extends Component {
   render() {
     return (
-      <div>
-          <div className="indented-section">
-            <div className="main-subText" id="section-header" style={{paddingTop: "3em"}}> About Me </div>
-            <Grid columns={2}>
-            <Grid.Row className="section">
-            <Grid.Column>
-              <Image src={aboutMe} id="aboutMe"/>
-            </Grid.Column>
-            <Grid.Column>
-            <div className="content-body" id="about-body"><span className="bold">I'm passionate about technology and it's impact on society. </span>
-            As technology keeps advancing, we have been able to see the ways in which it has impacted our lives in both a positive way. I believe in the importance of understanding humanities and how we create new products with people in mind.
-            I don't want to create new products for the sake of creating them, I want to make sure that what I'm creating will make a <span className="bold">lasting impact</span>.
+      <div className="indented-section">
+        <div className="main-subText" id="home-section-header" style={{paddingTop: "1em"}}> About Me </div>
+          <Grid columns={2} className="page-grid">
+            <Grid.Row>
+              <Grid.Column largeScreen={6} mobile={12} tablet={6} width={6} computer={6} >
+                <div className="main-subText" id="big-subtext"> An <span className="emphasis">enginner</span> <p> and </p><span className="emphasis">designer</span> based in <span className="emphasis">NYC.</span></div>
+              </Grid.Column>
+              <Grid.Column largeScreen={6} mobile={12} tablet={6} width={6} computer={6}>   
+                <Image src={aboutMe} id="aboutMe" />
+              </Grid.Column>
+              <Grid.Column largeScreen={12} mobile={12} tablet={12} style={{marginTop: "2em"}}>
+              <div className="content-body" id="about-body"><span className="emphasis">I'm passionate about technology and it's impact on society. </span>
+                   As technology keeps advancing, we have been able to see the ways in which it has impacted our lives in both a positive way. I believe in the importance of understanding humanities and how we create new products with people in mind.
+                   I don't want to create new products for the sake of creating them, I want to make sure that what I'm creating will make a <span className="emphasis">lasting impact</span>.
+              </div>
+              </Grid.Column>
+              <Grid.Column largeScreen={12} mobile={12} tablet={12} style={{marginTop: "1em"}}>
+              <div className="content-body" id="about-body"> My interest and passion in design stems from my desire to pair <span className="emphasis">creativity</span> with <span className="emphasis">science.</span> 
+                To understand why and how people interact with products are some very complex problems that stretch my imagination and bring me out of my comfort zone.
+              </div>
+              </Grid.Column>
+              <Grid.Column largeScreen={12} mobile={12} tablet={12} style={{marginTop: "1em"}}>
+              <div className="content-body"  id="about-body">With a background in both engineering and design, <span className="emphasis">I can make sure your vision turns into a reality. </span>
+                I can make sure that the designs that I create are feasible when beginning to development work and/or developing it myself. 
+                My engineer side fuels my design and my designer side drives my software development.
             </div>
-
-            <div className="content-body"  id="about-body"><span className="bold">I love challenges and stepping out of my comfort zone.</span>
-            Every time I step out of my comfort zone, I'm able to learn more about myself and unlock new interests. I embrace new challenges with <span className="bold">tenacity</span> and <span className="bold">ambition.</span>
+              </Grid.Column>
+              <Grid.Column largeScreen={12} mobile={12} tablet={12} style={{marginTop: "1em"}}>
+              <div className="content-body"  id="about-body">With a background in both engineering and design, <span className="emphasis">I can make sure your vision turns into a reality. </span>
+                I can make sure that the designs that I create are feasible when beginning to development work and/or developing it myself. 
+                My engineer side fuels my design and my designer side drives my software development.
             </div>
-
-            <div className="content-body"  id="about-body"><span className="bold">I love to travel. </span>
-              I'm always on the go and exploring new cities and countries whenever I can. Exploring different cultures provides a different perspective and sparks new ideas. Keeping myself busy keeps me very focused.
-            </div>
-            <div className="content-body"  id="about-body"><span className="bold">I can make sure your vision turns to reality. </span>
-              As a <span className="bold">designer</span> and <span className="bold">developer</span> I can make sure that what you envision for your next product<span className="bold"> will be there. </span>
-              My developer side fuels my design and my designer side drives my software development
-            </div>
-           </Grid.Column>
+              </Grid.Column>
+              <Grid.Column largeScreen={12} mobile={12} tablet={12} textAlign="center" style={{marginTop: "1em", marginBottom: "4em"}}>
+              <div className="main-subText" style={{fontSize: "30px"}}>
+                Want to learn more?
+              </div>
+              
+              <Button className="action-button" size="lg" style={{marginTop: "2em"}}>
+                  Contact Me
+                </Button>
+              </Grid.Column>
             </Grid.Row>
 
-            </Grid>
-          </div>
-          <div className="indented-section">
-          <div className="main-subText" id="section-header"> Currently: </div>
-          <div style={{marginBottom: "20%", textAlign: "center"}}>
-              <div className="bullet-item" >Independent UX Designer and Website Developer</div>
-             <div className="bullet-item" >Full Stack Developer at <a className="page-link" href="https://www.goldmansachs.com/" _target="blank">Goldman Sachs</a></div>
-             <div className="bullet-item" >Co-Founder and COO of <a className="page-link" href="https://www.macscientists.com/" _target="blank">MacScientists</a></div>
-             <div className="bullet-item" >Founder and Content Creator of <a className="page-link" href="https://mailchi.mp/02da2a5b2d98/societyxtech" _target="blank">Society x Tech</a></div>
-          </div>
-          </div>
+          </Grid>
       </div>
     )
   }

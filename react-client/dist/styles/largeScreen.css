@@ -4,18 +4,27 @@
 }
 
 .bm-burger-button {
-  visibility: visible;
+  visibility: hidden;
 }
 
 #headerButtons{
   visibility: hidden;
 }
 
+#my-hero-image{
+  height: 10%;
+}
+
+.hero-description{
+  width: 100%;
+}
+
+.pages{
+left: 10%;
+}
 
 
 .logo-image{
-  margin-top: -4em;
-  width: 25%;
 }
 
 
@@ -31,16 +40,26 @@
   margin-left: 0%;
 }
 
-.main-headerText{
-  text-align: center;
-  /*right: 5em;*/
+.header-container{
+  margin-left: 10% !important;
 }
 
-.main-subText{
+/* .main-headerText{
+  text-align: center;
+} */
+
+#fullRow{
+  margin-left: 25%;
+}
+
+.group{
+  padding-left: 15%;
+}
+
+/* .main-subText{
   text-align: center;
   font-size: 16px;
-  /*margin-left: 13%;*/
-}
+} */
 
 #homepage-header-text{
   text-align: center;
@@ -64,13 +83,10 @@ p{
   margin-left: 35%;
 }
 
-#banner-button-2{
-  margin-left: 39%;
+#details{
+  margin-left: 2%;
 }
 
-#banner-button-3{
-  margin-right: 20%;
-}
 
 .focal-image{
   margin-Left: 25%;
@@ -82,6 +98,10 @@ p{
 
 #percentage{
   margin-left: 12%;
+}
+
+#pie-chart{
+  margin-left: -35%;
 }
 
 #result{
@@ -103,6 +123,7 @@ p{
 
 #section-sub-header{
   width: 100%;
+  margin-left: 0%;
 }
 
 #preferenceTestMockup{
@@ -110,18 +131,16 @@ p{
   width: 50%;
 }
 
-.key-features{
-  padding-left: 15%;
+.key-feature{
+  margin-right: 3.5em;
 }
 
 .content{
   margin-left: 15%;
 }
 
-
-#gap{
-  /*margin-left: 10%;*/
-
+#travelixColors{
+  width: 100%;
 }
 
 .content-body{
@@ -137,12 +156,17 @@ ul{
 
 #subCaption{
   width: 100%;
+  margin-left: -5%;
 }
 
 .user-persona{
   margin-left: 0%;
   margin-bottom: 1.5em;
   width: 100%;
+}
+
+.user-personas{
+  padding-left: 15%;
 }
 
 #bio-text{
@@ -157,6 +181,7 @@ ul{
 }
 
 .quote{
+  margin-right: 3em;
 }
 
 /*.content-body{
@@ -180,17 +205,13 @@ ul{
 }
 
 #case-study-role{
-  text-align: center;
-  margin-left: -13%;
+
 }
 
 #case-study-description{
- padding-right: 25%;
- text-align: center;
 }
 
 #case-study-button{
-  margin-left: 27%;
 }
 
 #case-study-image{
@@ -202,16 +223,28 @@ ul{
 
 
 #section-header{
-  margin-right: 0%;
+  margin-left: 10%;
+}
+
+#home-section-header{
+  margin-left: 10%;
 }
 
 #page-section-header{
   width: 90%;
 }
 
+.page-section{
+  margin-left: 9%;
+}
 #about-body{
   text-align: left;
   margin-left: 5%;
+  width: 100%;
+}
+
+#big-subtext{
+  margin-left: 1em;
 }
 
 .banner-link-image{
@@ -292,13 +325,19 @@ footer{
   margin-right: 0%;
 }
 
+#society-lowfi-mockups{
+  margin-top: 0;
+  width: 60%;
+}
+
 #styleguide{
+  margin-left: 20%;
 }
 
 #aboutMe{
-  width: 50%;
+  width: 100%;
   margin-left: 25%;
-  margin-bottom: 10%;
+  margin-top: 3em;
 }
 
 #mockups{
@@ -318,21 +357,20 @@ footer{
 }
 
 #persona-image{
+  width: 120%;
 }
 
 #travelix-persona-image{
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-left: 10%;
 }
 
 #travelix-image, #magneg-image{
-  width: 45%;
-  margin-left: 27%;
+  margin-left: 45%;
   margin-top: 0%;
 }
 
 .banner-description{
-  margin-left: 5%;
+  margin-left: 16%;
 }
 
 #magnegMockups{

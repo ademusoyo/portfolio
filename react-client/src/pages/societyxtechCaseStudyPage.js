@@ -32,10 +32,10 @@ class SocietyxTechPage extends Component {
               image={societyxTechMac}
               imageId="travelix-image"
               newWindow={true} />
-                  <Row>
                     <Slide top cascade>
                       <div className="main-subText" id="section-header"> Overview </div>
                     </Slide>
+                  <Row className="page-section">
                     <Fade>
                     <Col xs="12" sm="6" md="6" lg="6" xl="6">
                     <Content
@@ -55,12 +55,10 @@ class SocietyxTechPage extends Component {
                     </Col>
                     </Fade>
                   </Row>
-                  <Row>
                   <Slide top cascade>
                   <div className="main-subText" id="section-header">Information Architecture</div>
                   </Slide>
-                  </Row>
-                  <Row>
+                  <Row className="page-section">
                     <Fade>
                     <Col xs="12" md="6" lg="6" xl="6">
                     <ContentBigImage
@@ -84,17 +82,17 @@ class SocietyxTechPage extends Component {
                   <Row>
                 </Row>
                   </Row>
-                  <Row>
-                    <Slide top cascade>
+                  <Slide top cascade>
                       <div className="main-subText" id="section-header">Brand Identity</div>
                       </Slide>
+                  <Row>
                       <Fade>
                       <Col xs="12" md="6" lg="6" xl="6">
                         <ContentImage
                           title="Logo & Naming"
                           content="I chose the name Society x Tech (pronounced: Society by Tech) simply because the newsletter is discussing how society is impacted BY tech. I considered other options and used a mind map to work through my thought process as well as sketched out different logo options."
                           image={mindMap}
-                          id="fullRow"
+                          id="fullRow2"
                           imageId="travelixMindMap"
                           caption="Mind map"
                         />
@@ -106,8 +104,8 @@ class SocietyxTechPage extends Component {
                           title=""
                           content=""
                           image={logoSketches}
-                          id="fullRow"
-                          imageId="travelixMindMap"
+                          id="fullRow2"
+                          imageId="logoSketches"
                           caption="Logo Sketches"
                         />
                       </Col>
@@ -118,7 +116,7 @@ class SocietyxTechPage extends Component {
                       <ContentImage
                         title="Color"
                         content="I chose green as the primary color because as green represents growth, it is my hope that from subscribers reading the newsletter, they would have growth in their own perspective. The other colors provide a sense of tranquility and stability."
-                        id="fullRow"
+                        id="fullRow2"
                         image={color}
                         imageId="wireframes"
                       />
@@ -130,32 +128,32 @@ class SocietyxTechPage extends Component {
                       <ContentImage
                         title="Typography"
                         content="Tech/Coding fonts in developer environments are usually monospaced. I paired a monospaced font with a san-serif font."
-                        id="fullRow"
+                        id="fullRow2"
                         image={typography}
                         imageId="wireframes"
                       />
                       </Fade>
                       </Col>
                   </Row>
-                 <Slide top cascade>
+                  <Slide top cascade>
                <div className="main-subText" id="section-header">Final Development</div>
                </Slide>
-              <Row>
+              <Row className="page-section">
               <Fade>
               <Col xs="12" md="9" lg="9" xl="9">
                 <ContentButton title="Web Development"
                   content="Based on the wireframes and style guide we were able to bring our designs to life. Using GatsbyJS, I modified an exisiting template and coded the Website using React and CSS"
                   buttonText="View Website"
                   buttonLink="https://www.societyxtech.com/"
-                  id="fullRow"
+                  id="fullRow3"
                     />
               </Col>
               </Fade>
               </Row>
-              <Row>
               <Slide top cascade>
                 <div className="main-subText" id="section-header">Conclusion</div>
               </Slide>
+              <Row className="page-section">
               <Col xs="12" sm="9" md="9" lg="9" xl="9">
                   <Fade>
                   <Content

@@ -78,10 +78,10 @@ class MagnegPage extends Component {
                     </Col>
                     </Fade>
                   </Row>
-                  <Row>
                   <Slide top cascade>
                   <div className="main-subText" id="section-header"> Research </div>
                   </Slide>
+                  <Row className="page-section">
                   <Fade>
                     <Col xs="12" sm="9" md="9" lg="9" xl="9">
                       <Content
@@ -119,32 +119,32 @@ class MagnegPage extends Component {
                           </Fade>
                           <Fade>
                           <Row className="key-features">
-                            <Col xs="6" sm="6" md="4" lg="4" xl="4" id="space">
+                            <Col xs="6" sm="4" md="4" lg="4" xl="4" id="space" className="key-feature">
                               <div className="tile">
                                 Upload
                               </div>
                             </Col>
-                            <Col xs="6" sm="6" md="4" lg="4" xl="4">
+                            <Col xs="6" sm="4" md="4" lg="4" xl="4" className="key-feature">
                               <div className="tile">
                                 Create
                               </div>
                             </Col>
-                              <Col xs="6" sm="6" md="4" lg="4" xl="4">
+                              <Col xs="6" sm="4" md="4" lg="4" xl="4" className="key-feature">
                               <div className="tile">
                                 Organize
                               </div>
                             </Col>
-                            <Col xs="6" sm="6" md="4" lg="4" xl="4">
+                            <Col xs="6" sm="4" md="4" lg="4" xl="4" className="key-feature">
                               <div className="tile">
                                 Share
                               </div>
                             </Col>
-                              <Col xs="6" sm="6" md="4" lg="4" xl="4">
+                              <Col xs="6" sm="4" md="4" lg="4" xl="4" className="key-feature" >
                               <div className="tile">
                                 Collaborate
                               </div>
                             </Col>
-                              <Col xs="6" sm="6" md="4" lg="4" xl="4">
+                              <Col xs="6" sm="4" md="4" lg="4" xl="4" className="key-feature">
                               <div className="tile" id="special-tile">
                                 Offline Access
                               </div>
@@ -164,7 +164,7 @@ class MagnegPage extends Component {
                   </Fade>
                   <Fade>
                     <Row className="group">
-                      <Col xs="6" sm="4" md="4" lg="4" xl="4" className="swot">
+                      <Col xs="12" sm="12" md="12" lg="4" xl="4" className="swot">
                         <img src={googleDrive} id="competitive-image" />
                         <div className="caption" id="subCaption">Strengths</div>
                         <div className="content-body" id="subCaption">Generous amounts of free storage</div>
@@ -179,7 +179,7 @@ class MagnegPage extends Component {
                         <div className="content-body" id="subCaption">Only works well for those who use google products for storage</div>
                         <div className="content-body" id="subCaption">For ease of collaboration, everyone would need a gmail account</div>
                       </Col>
-                      <Col xs="6" sm="4" md="4" lg="4" xl="4" className="swot">
+                      <Col xs="12" sm="12" md="12" lg="4" xl="4" className="swot">
                         <img src={pinterest} id="competitive-image" />
                         <div className="caption" id="subCaption">Strengths</div>
                         <div className="content-body" id="subCaption">Allows you to collect things that you find on the internet</div>
@@ -194,7 +194,7 @@ class MagnegPage extends Component {
                         <div className="content-body" id="subCaption">Only geared for a specific type of audience</div>
                         <div className="content-body" id="subCaption">Outside of images types, nothing else can be shared</div>
                       </Col>
-                      <Col xs="6" sm="4" md="4" lg="4" xl="4" className="swot">
+                      <Col xs="12" sm="12" md="12" lg="4" xl="4" className="swot">
                         <img src={icloud} id="competitive-image" />
                         <div className="caption" id="subCaption">Strengths</div>
                         <div className="content-body" id="subCaption">Automatic backups</div>
@@ -317,7 +317,7 @@ class MagnegPage extends Component {
                       image={sketches}
                       caption="Initial sketches."
                       imageId="wireframes"
-                      id="gap"
+                      id="fullRow"
                     />
                     </Col>
                       </Fade>
@@ -328,6 +328,7 @@ class MagnegPage extends Component {
                         image={wireframes}
                         caption="some of the wireframes"
                         imageId="wireframes"
+                        id="fullRow"
                       />
                       </Col>
                     </Row>
@@ -356,7 +357,7 @@ class MagnegPage extends Component {
                         <Content
                           title="Branding"
                           content="Before jumping into the design, we wanted to determine the overall look and feel for the app. We wanted it to be colorful, but also present a very minimalistic look and feel for the design. We chose to use more cool colors that symbolize reliability and trust within the platform. We chose to pair the fonts Karla and Montserrat because we felt that they gave a more fun and collaborative mood."
-                          id="gap"
+                          id="fullRow"
                         />
                         </Fade>
                         <Fade>
@@ -366,41 +367,10 @@ class MagnegPage extends Component {
 
                     </Row>
                   </Row>
-              <Row>
-                 <Slide top cascade>
+                  <Slide top cascade>
                 <div className="main-subText" id="section-header">Testing</div>
                 </Slide>
-                <Row>
-                <Fade>
-                <Col xs="12" sm="9" md="9" lg="9" xl="9" style={{marginLeft: "1em"}}>
-                  <Content title="Usability Testing"
-                    id="fullRow"
-                    content="We first began testing with the wireframes. By testing these wireframes first, we are able to see if we are making the right design decisions before adding more visuals. Based on these results, it was evident that the we need to make the action upload account more clear." />
-                </Col>
-                </Fade>
-                  <Fade>
-                  <Row className="group">
-                    <Col xs="12" md="4" lg="4" xl="4" style={{textAlign: "center"}}>
-                    <PieChartMetric
-                        pieChart={totalPercent}
-                        percentage="100%"
-                        text="of participants were able to successfully create an account." />
-                    </Col>
-                    <Col xs="12" md="4" lg="4" xl="4" style={{textAlign: "center"}}>
-                    <PieChartMetric
-                        pieChart={seventyFivePercent}
-                        percentage="75%"
-                        text="of participants were able to successfully upload content." />
-                    </Col>
-                    <Col xs="12" md="4" lg="4" xl="4" style={{textAlign: "center"}}>
-                    <PieChartMetric
-                        pieChart={totalPercent}
-                        percentage="100%"
-                        text="of participants were able to upload content." />
-                    </Col>
-                  </Row>
-                  </Fade>
-                  </Row>
+              <Row className="page-section">
                   <Row>
                     <Fade>
                     <Col xs="12" sm="9" md="9" lg="9" xl="9" style={{marginLeft: "1em"}}>

@@ -50,18 +50,18 @@ class TravelixPage extends Component {
               image={travelixIphone}
               imageId="travelix-image"
               newWindow={true} />
-                  <Row>
-                    <Slide top cascade>
+                   <Slide top cascade>
                       <div className="main-subText" id="section-header"> Overview </div>
                     </Slide>
+                  <Row className="page-section">
                     <Fade>
-                    <Col xs="12" sm="6" md="6" lg="6" xl="6">
+                    <Col xs="12" sm="12" md="12" lg="12" xl="12">
                     <Content
                       title="Problem"
                       content="Currently, people use multiple websites and applications to gain insight about a new place that they are visiting. This process can be really overwhelming and hard to synthesize into understanding what you want to to do and information tends to be missing."
                     />
                     </Col>
-                    <Col xs="12" sm="6" md="6" lg="6" xl="6">
+                    <Col xs="12" sm="12" md="12" lg="12" xl="12">
                       <Content title="Solution"
                         content="Travelix aims to be that new mobile application that centralizes all types of media for you to plan your dream location. Users have the ability to:"
                           />
@@ -73,10 +73,10 @@ class TravelixPage extends Component {
                     </Col>
                     </Fade>
                   </Row>
-                  <Row>
                   <Slide top cascade>
                   <div className="main-subText" id="section-header"> Research </div>
                   </Slide>
+                  <Row className="page-section">
                   <Fade>
                     <Col xs="12" sm="9" md="9" lg="9" xl="9">
                       <Content
@@ -114,17 +114,17 @@ class TravelixPage extends Component {
                           </Fade>
                           <Fade>
                           <Row className="key-features">
-                            <Col xs="6" sm="6" md="4" lg="4" xl="4">
+                            <Col xs="6" sm="6" md="4" lg="4" xl="4" className="key-feature">
                               <div className="tile" style={{fontSize: "18px"}}>
                                 Reading & Writing Reviews
                               </div>
                             </Col>
-                            <Col xs="6" sm="6" md="4" lg="4" xl="4">
+                            <Col xs="6" sm="6" md="4" lg="4" xl="4" className="key-feature">
                               <div className="tile" style={{fontSize: "18px"}}>
                                 Organizing Travel Ideas
                               </div>
                             </Col>
-                            <Col xs="6" sm="6" md="4" lg="4" xl="4">
+                            <Col xs="6" sm="6" md="4" lg="4" xl="4" className="key-feature">
                               <div className="tile" style={{fontSize: "18px"}}>
                                 Adding your Own Content
                               </div>
@@ -132,13 +132,13 @@ class TravelixPage extends Component {
                         </Row>
                         </Fade>
                     </Row>
-                  <Row>
-                  <Fade>
+                  {/* <Row> */}
+                  {/* <Fade>
                   <Col xs="12"  sm="9" md="9" lg="9" xl="9">
                   <Content
                     title="Competitive Analysis"
                     content="There are many resources that consumers are currently using to organize and plan their travel. By doing competitive analysis, we determined that Travelix needs to allow for different types of media to be available to view within the platform and allow users to organize their ideas in travel buckets for future destinations. Users should be able to write their own content to provide their own feedback authentically."
-                    id="gap"
+                    id="fullRow"
                   />
                   </Col>
                   </Fade>
@@ -146,59 +146,59 @@ class TravelixPage extends Component {
                     <Row className="group">
                       <Col xs="12" sm="12" md="4" lg="4" xl="4" className="swot">
                         <img src={airbnb} id="competitive-image" />
-                        <div className="caption" id="subCaption" >Strengths</div>
+                        <div className="caption" id="head-caption" >Strengths</div>
                         <div className="content-body" id="subCaption">Allows you to look for different types of accommodations for varying groups of people</div>
                         <div className="content-body" id="subCaption">Can create an itinerary</div>
-                        <div className="caption" id="subCaption">Weaknesses</div>
+                        <div className="caption" id="head-caption">Weaknesses</div>
                         <div className="content-body" id="subCaption">Lack of information about safety </div>
                         <div className="content-body" id="subCaption">Doesn’t allow you to compare with other sites</div>
-                        <div className="caption" id="subCaption">Opportunities</div>
+                        <div className="caption"  id="head-caption">Opportunities</div>
                         <div className="content-body" id="subCaption">Varying sources for accommodations and excursions</div>
                         <div className="content-body" id="subCaption">Creating an itinerary</div>
-                        <div className="caption" id="subCaption">Threats</div>
+                        <div className="caption"  id="head-caption">Threats</div>
                         <div className="content-body" id="subCaption">Gives a limited view on the accommodation</div>
                         <div className="content-body" id="subCaption">Not reliable in terms of payments</div>
                       </Col>
                       <Col xs="12" sm="12" md="4" lg="4" xl="4"  className="swot">
                         <img src={instagram} id="competitive-image" />
-                        <div className="caption" id="subCaption">Strengths</div>
+                        <div className="caption"  id="head-caption">Strengths</div>
                         <div className="content-body" id="subCaption">You can build your own brand/platform</div>
                         <div className="content-body" id="subCaption">Visually Driven</div>
-                        <div className="caption" id="subCaption">Weaknesses</div>
+                        <div className="caption"  id="head-caption">Weaknesses</div>
                         <div className="content-body" id="subCaption">Cannot share your organized content with others</div>
                         <div className="content-body" id="subCaption">Can be overwhelming to organize and consume</div>
-                        <div className="caption" id="subCaption">Opportunities</div>
+                        <div className="caption"  id="head-caption">Opportunities</div>
                         <div className="content-body" id="subCaption">Create “feeds” based on different locations</div>
                         <div className="content-body" id="subCaption">Allow different media types to appear on the feed</div>
-                        <div className="caption" id="subCaption">Threats</div>
+                        <div className="caption"  id="head-caption">Threats</div>
                         <div className="content-body" id="subCaption">Algorithm doesn't level out the playing field for everyone to see content.</div>
                         <div className="content-body" id="subCaption">Limited understanding of the images being shown.</div>
                       </Col>
                       <Col xs="12" sm="12" md="4" lg="4" xl="4"  className="swot">
                         <img src={youtube} id="competitive-image" />
-                        <div className="caption" id="subCaption">Strengths</div>
+                        <div className="caption"  id="head-caption">Strengths</div>
                         <div className="content-body" id="subCaption">Allows you to view video content</div>
                         <div className="content-body" id="subCaption">Allows you to see more of an area that you are trying to visit</div>
-                        <div className="caption" id="subCaption">Weaknesses</div>
+                        <div className="caption"  id="head-caption">Weaknesses</div>
                         <div className="content-body" id="subCaption">You can only show videos</div>
                         <div className="content-body" id="subCaption">Has trended to more of a popularity contest</div>
-                        <div className="caption" id="subCaption">Opportunities</div>
+                        <div className="caption"  id="head-caption">Opportunities</div>
                         <div className="content-body" id="subCaption">Showing video content</div>
                         <div className="content-body" id="subCaption">Creating lists for specific types of videos</div>
-                        <div className="caption" id="subCaption">Threats</div>
+                        <div className="caption"  id="head-caption">Threats</div>
                         <div className="content-body" id="subCaption">Only shows video content</div>
                         <div className="content-body" id="subCaption">Algorithm issues</div>
                       </Col>
                     </Row>
-                  </Fade>
-                  </Row>
+                  </Fade> */}
+                  {/* </Row> */}
                   <Row>
                     <Fade>
                     <Col xs="12" sm="9" md="9" lg="9" xl="9">
                     <Content
                       title="User Personas"
                       content="With the information gained from my competitive analysis and my user surveys I was ready to create my user personas, hypothetical archetypes of real users as defined by their goals and frustrations. These personas helped drive the Travelix Solution."
-                      id="gap"
+                      id="fullRow"
                     />
                     </Col>
                     </Fade>
@@ -331,7 +331,7 @@ class TravelixPage extends Component {
                   </Row>
                   <Row>
                     <Slide top cascade>
-                      <div className="main-subText" id="section-header">Brand Identity</div>
+                      <div className="main-subText" id="section-header">Branding</div>
                       </Slide>
                       <Fade>
                       <Col xs="12" md="9" lg="9" xl="9">
@@ -339,7 +339,7 @@ class TravelixPage extends Component {
                           title="Logo & Naming"
                           content="We chose the name Travelix as a play on the word Travel and List. When you're planning a trip, you're typically making a list of places you want to travel. I did a mind mapping excercise to help get ideas on different names."
                           image={travelixSketches}
-                          id="fullRow"
+                          id=""
                           imageId="travelixMindMap"
                           caption="Mind map"
                         />
@@ -351,8 +351,9 @@ class TravelixPage extends Component {
                       <ContentImage
                         title="Color"
                         content="We wanted Travelix to exude some sense of vibrancy while also being very minimalistic. The red and orange colors give off the sense of adventure while the brown/tannish colors give that base of calmness and reliability."
-                        id="fullRow"
+                        id=""
                         image={color}
+                        imageId="travelixColors"
                       />
                       </Fade>
                       </Col>
@@ -362,8 +363,9 @@ class TravelixPage extends Component {
                       <ContentImage
                         title="Typography"
                         content="Our goals when choosing a font was to provide dramatic, bold text paired with subtle minimalistic text. Within the application we decided to use Abril Fatface and Josephin Sans because the bold, geometric shapes of Abril Fatface pairs well with the San-Serif font Josefin Sans to create a vibrant yet minimalistic look and feel. "
-                        id="fullRow"
+                  
                         image={typography}
+                        imageId="travelixColors"
                       />
                       </Fade>
                       </Col>
@@ -375,7 +377,7 @@ class TravelixPage extends Component {
                <Row>
                <Col xs="12" sm="9" md="9" lg="9" xl="9" style={{paddingLeft: "2%"}}>
                  <Content title="Preference Testing"
-                   id="fullRow"
+                  
                    content="Before bringing the wireframes to life, we wanted to see which of the different wireframes users preferred for the dashboard." />
                </Col>
                </Row>
@@ -402,7 +404,7 @@ class TravelixPage extends Component {
                  <Fade>
                  <Col xs="12" sm="9" md="9" lg="9" xl="9" style={{marginLeft: "1em"}}>
                    <ContentImage title="Usability Testing"
-                     id="gap"
+                     id=""
                      content="We conducted usability testing on the final mockups. While all usability testers were able to navigate through the app successfully with no issue, we noted some accessibility issues which caused some redesign of some of the look and feel."
                      image={iterations}
                      imageId="travelixMockups"
@@ -413,7 +415,7 @@ class TravelixPage extends Component {
                  </Fade>
                  </Row>
                  <Slide top cascade>
-               <div className="main-subText" id="section-header">Final Designs</div>
+               <div className="main-subText" id="section-header">Final Design</div>
                </Slide>
               <Row>
               <Fade>
@@ -422,7 +424,7 @@ class TravelixPage extends Component {
                   content="From the wireframes and style guide we were able to bring our designs to life. We went through several iterations to get to the finalized solution that is clean, simple, accessible and solves our original problem. The prototype was created using Figma."
                   buttonText="View Prototype"
                   buttonLink="https://www.figma.com/proto/f2n348DjtiG7jTwazMLorylD/Travel-App?node-id=53%3A1&viewport=322%2C202%2C0.371819&scaling=scale-down"
-                  id="fullRow"
+                  id=""
                   imageId="travelixDesigns"
                   image={mockups}
                   caption="Some of the final screens of Travelix"
@@ -439,19 +441,19 @@ class TravelixPage extends Component {
                   <Content
                     title="Reflections"
                     content="This project was definitely very interesting because it exposed some of the different ways to consider buildind and prototyping an application."
-                    id="fullRow"
+                    id=""
                   />
                   </Fade>
                   <Fade>
                     <Content title=""
                       content="Looking back, I realized my own biases of building an application without considering all accessibility best practices in my first iteration."
-                      id="fullRow"
+                      id=""
                         />
                   </Fade>
                   <Fade>
                       <Content title=""
                         content="When considering actual development of this application, I would challenge the high priority items to see what could be dropped down to medium priority items in order to get the product out sooner rather than later. "
-                        id="addPadding"
+                        id=""
                           />
                   </Fade>
               </Col>
