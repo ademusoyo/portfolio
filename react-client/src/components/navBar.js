@@ -27,7 +27,7 @@ class NavBar extends Component {
               <Link className="menu-link"to="/">Portfolio</Link>
               <Link className="menu-link"to="/about">About</Link> 
               <Link className="menu-link"to="/process">Design Process</Link> 
-              <a href="https://calendly.com/ademusoyo" className="menu-link">Schedule a Call</a>
+              <a href="https://calendly.com/ademusoyo" target="_blank" className="menu-link">Schedule a Call</a>
             <div className="social-row-hamburger">
               <a href="mailto:ademusoyo@gmail.com" target="_blank"><img src={mail} id="social-icon" alt="mail icon" /></a>
               <a href="https://www.linkedin.com/in/ademusoyo/" target="_blank"><img src={linkedIn} id="social-icon" alt = "linkedIn icon"/></a>
@@ -44,7 +44,7 @@ class NavBar extends Component {
               <Link className="nav-link"to="/">Portfolio</Link> <br />
               <Link className="nav-link"to="/about">About</Link> <br />
               <Link className="nav-link"to="/process">Design Process</Link> <br />
-              <a href="https://calendly.com/ademusoyo" className="nav-link">Schedule a Call</a>
+              <a href="https://calendly.com/ademusoyo" target="_blank" className="nav-link">Schedule a Call</a>
             </div>
             <div className="social-row">
               <a href="mailto:ademusoyo@gmail.com" target="_blank"><img src={mail} alt="mail icon" /></a>
