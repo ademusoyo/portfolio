@@ -25,6 +25,7 @@ left: 10%;
 
 
 .logo-image{
+  width: 80%;
 }
 
 
@@ -215,7 +216,7 @@ ul{
 }
 
 #case-study-image{
-  margin-left: 5%;
+  margin-left: 25%;
 }
 .closer{
   right: 0px;
