@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../images/logo.png'
+import logo2 from '../images/logo2.png'
 import { slide as Menu, MenuWrap } from 'react-burger-menu'
 import { HashLink } from 'react-router-hash-link';
 import me from  '../images/me2.png';
@@ -16,9 +17,9 @@ class NavBar extends Component {
     return (
         <Grid columns={1} className="side-nav">
           <Grid.Column>
-          <Link to="/">
-          <Image src={logo} className="logo-image" />
-          </Link>
+          {/* <Link to="/">
+          <Image src={logo2} className="logo-image" />
+          </Link> */}
           <Menu right >
             <Image src={me} />
             <h4 className="hero-name-hamburger">
